@@ -12,3 +12,5 @@ Current work list in order of rough priority
 - break out formatting code into country specific and more easily testable modules, open-source
 - better, more tests / general stability
 - return what3words code for each location
+- build geocoder around openaddresses.io data
+
