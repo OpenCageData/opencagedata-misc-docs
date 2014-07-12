@@ -7,10 +7,13 @@ We welcome your feedback and will steer our efforts to those features most reque
 Current work list in order of rough priority
 - catch and eliminate duplicate responses, example: "Berlin"
 - better ranking of results and documentation of the logic used
-- use bounds param to direct query to appropriate nestoria country geocoder
+- public status page showing how far we lag in synching OSM edits
+- "amendments" - ie adding additional data to responses for example 
+-- timezones
+-- country specific amendments like OS grid reference
+-- what3words codes
 - break out formatting code into country specific and more easily testable and open sourced modules
 - better, more tests / general stability
 - better way to deal with reported data errors and feed them back to the underlying datasource (ie OSM)
-- return what3words code for each location
 - build geocoder around openaddresses.io data
 
