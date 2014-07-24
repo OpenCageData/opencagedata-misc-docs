@@ -8,10 +8,11 @@ Current work list in order of rough priority
 - catch and eliminate duplicate responses, example: "Berlin"
 - better ranking of results and documentation of the logic used
 - public status page showing how far we lag in synching OSM edits
-- "amendments" - ie adding additional data to responses for example 
+- "annotations" - ie adding additional data to responses for example 
 -- timezones
 -- country specific amendments like OS grid reference
 -- what3words codes
+- min_confidence parameter
 - break out formatting code into country specific and more easily testable and open sourced modules
 - better, more tests / general stability
 - better way to deal with reported data errors and feed them back to the underlying datasource (ie OSM)
