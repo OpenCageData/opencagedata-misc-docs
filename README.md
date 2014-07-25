@@ -1,8 +1,11 @@
 the OpenCage geocoder roadmap
 ====================
 
-This document isa public high level overview of what we're working on to improve the OpenCage Geocoder - see http://geocoder.opencagedata.com 
-We welcome your feedback and will steer our efforts to those features most requested by our customers. 
+This document isa public high level overview of what we're working on
+to improve the OpenCage Geocoder - see http://geocoder.opencagedata.com
+
+We welcome your feedback and will steer our efforts to those features
+most requested by our customers.
 
 Current work list in order of rough priority
 - catch and eliminate duplicate responses, example: "Berlin"
@@ -10,11 +13,11 @@ Current work list in order of rough priority
 - public status page showing how far we lag in synching OSM edits
 - "annotations" - ie adding additional data to responses for example 
 -- timezones
--- country specific amendments like OS grid reference
 -- what3words codes
-- min_confidence parameter
-- break out formatting code into country specific and more easily testable and open sourced modules
+- break out formatting code into country specific and more easily
+  testable and open sourced modules
 - better, more tests / general stability
-- better way to deal with reported data errors and feed them back to the underlying datasource (ie OSM)
+- better way to deal with reported data errors and feed them back to
+  the underlying datasource (ie OSM)
 - build geocoder around openaddresses.io data
 
