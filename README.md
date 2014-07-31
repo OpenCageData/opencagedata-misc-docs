@@ -12,14 +12,13 @@ Current work list in order of rough priority
 - better ranking of results and documentation of the logic used
 - public status page showing how far we lag in synching OSM edits
 - "annotations" - ie adding additional data to responses for example 
-  - link to OSM map
-  - timezones
   - what3words codes
+  - elevation?
 - break out title formatting code into country specific and more easily
   testable and open sourced modules
 - better, more tests / general stability
 - better way to deal with reported data errors and feed them back to
   the underlying datasource (ie OSM)
-- better per country routing (sendign query to correct geocoder)
+- better per country routing (sending query to correct geocoder)
 - build geocoder around openaddresses.io data
 
