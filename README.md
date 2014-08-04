@@ -8,6 +8,7 @@ We welcome your feedback and will steer our efforts to those features
 most requested by our customers.
 
 Current work list in order of rough priority
+- submit patch to https://github.com/alexreisner/geocoder
 - catch and eliminate duplicate responses, example: "Berlin"
 - better ranking of results and documentation of the logic used
 - public status page showing how far we lag in synching OSM edits
