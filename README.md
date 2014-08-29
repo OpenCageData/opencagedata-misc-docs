@@ -1,7 +1,7 @@
 the OpenCage geocoder roadmap
 ====================
 
-This document isa public high level overview of what we're working on
+This document is a public high level overview of what we're working on
 to improve the OpenCage Geocoder - see http://geocoder.opencagedata.com
 
 We welcome your feedback and will steer our efforts to those features
