@@ -8,15 +8,18 @@ We welcome your feedback and will steer our efforts to those features
 most requested by our customers.
 
 Current work list in order of rough priority
-- catch and eliminate duplicate responses, example: "Berlin"
+- use templates from https://github.com/lokku/address-formatting to create the formatted address
+  - opensource the code we do do this
+  - better README for address-formatting
+- better logic to catch and eliminate duplicate responses, example: "Berlin"
 - better ranking of results and documentation of the logic used
-- public status page showing how far we lag in synching OSM edits
 - "annotations" - ie adding additional data to responses for example 
-  - what3words codes
+  - country calling codes
   - elevation?
 - break out title formatting code into country specific and more easily
   testable and open sourced modules
 - better, more tests / general stability
+- public status page showing how far we lag in synching OSM edits
 - better way to deal with reported data errors and feed them back to
   the underlying datasource (ie OSM)
 - better per country routing (sending query to correct geocoder)
