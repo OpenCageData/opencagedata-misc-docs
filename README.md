@@ -14,7 +14,6 @@ Current work list in order of rough priority
 - better logic to catch and eliminate duplicate responses, example: "Berlin"
 - better ranking of results and documentation of the logic used
 - "annotations" - ie adding additional data to responses for example 
-  - country calling codes
   - elevation?
 - break out title formatting code into country specific and more easily
   testable and open sourced modules
