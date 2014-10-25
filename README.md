@@ -9,7 +9,6 @@ most requested by our customers.
 
 Current work list in order of rough priority
 - continue to add country specific code and tests to https://github.com/lokku/address-formatting for proper address formatting
-- better logic to catch and eliminate duplicate responses, example: "Berlin"
 - better ranking of results and documentation of the logic used
 - "annotations" - ie adding additional data to responses for example 
   - elevation?
