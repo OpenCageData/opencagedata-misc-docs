@@ -17,5 +17,6 @@ Current work list in order of rough priority
 - better way to deal with reported data errors and feed them back to
   the underlying datasource (ie OSM)
 - better per country routing (sending query to correct geocoder)
+- allow client to specify "strict=1" to get exact coordinates of a postcode rather than first finding nearest address and returning coordinates of that address
 - build geocoder around openaddresses.io data
 
