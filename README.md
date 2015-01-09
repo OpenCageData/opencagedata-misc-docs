@@ -19,4 +19,4 @@ Current work list in order of rough priority
 - better per country routing (sending query to correct geocoder)
 - allow client to specify "strict=1" to get exact coordinates of a postcode rather than first finding nearest address and returning coordinates of that address
 - build geocoder around openaddresses.io data
-
+- geocoding using celltowers (opencellid database)
