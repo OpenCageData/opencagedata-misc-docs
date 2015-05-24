@@ -1,14 +1,13 @@
 the OpenCage geocoder roadmap
 ====================
 
-This document is a public high level overview of what we're working on
-to improve the OpenCage Geocoder - see http://geocoder.opencagedata.com
+This document is a public high level overview of what we're working on to improve the OpenCage Geocoder - see http://geocoder.opencagedata.com
 
-We welcome your feedback and will steer our efforts to those features
-most requested by our customers.
+We welcome your feedback and will steer our efforts to those features most requested by our customers (note, by customers we mean actual paying customers, not those on the the free tier)
 
-Current work list in order of rough priority
+Current work list in a very order of rough priority
 - continue to add country specific code and tests to https://github.com/lokku/address-formatting for proper address formatting
+- move away from API registration provider (3scale). Proving too clunky and costly.
 - better ranking of results and documentation of the logic used
 - "annotations" - ie adding additional data to responses for example 
   - elevation?
