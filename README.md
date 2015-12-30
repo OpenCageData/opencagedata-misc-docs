@@ -8,7 +8,7 @@ We welcome your feedback and will steer our efforts to those features most reque
 Current work list in a very order of rough priority
 - publicly announce pricing. Target date is 1 Feb 2016
 - move away from API registration provider (3scale). Proving too clunky and costly
-- release v2 of the API and rename some keys, specifically ´confidence´. See discussion here: http://blog.opencagedata.com/post/127899935808/changing-confidence-scoring
+- release v2 of the API and rename some keys, specifically `confidence`. See discussion here: http://blog.opencagedata.com/post/127899935808/changing-confidence-scoring
 - continue to add country specific code and tests to https://github.com/opencagedata/address-formatting for proper address formatting
 - public status page showing how far we lag in synching OSM edits
 
