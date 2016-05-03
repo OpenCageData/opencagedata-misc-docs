@@ -7,11 +7,11 @@ We welcome your feedback and will steer our efforts to those features most reque
 
 Current work list in a very order of rough priority
 - move away from API registration provider (3scale). Proving too clunky and costly
-- continue to add country specific code and tests to https://github.com/opencagedata/address-formatting for proper address formatting. Specifically we need experienced help with double byte and right-to-left languages. 
-- codde 
-- release v2 of the API and rename some keys, specifically `confidence`. See discussion here: http://blog.opencagedata.com/post/127899935808/changing-confidence-scoring
+- [more code examples, more libraries](https://geocoder.opencagedata.com/code) for less popular languages.
+- better [demo page](https://geocoder.opencagedata.com/demo) to allow testing the various option parameters
+- continue to add country specific code and tests to [address-formatting[(https://github.com/opencagedata/address-formatting) for proper address formatting. Specifically we need experienced help with double byte and right-to-left languages. 
+- release v2 of the API and rename some keys, specifically `confidence`. See discussion [on the blog](http://blog.opencagedata.com/post/127899935808/changing-confidence-scoring) 
 - public status page showing how far we lag in synching OSM edits
-- more code examples, more libraries, for example perl6, etc 
 - better ranking of results and documentation of the logic used
 - "annotations" - ie adding additional data to responses for example 
   - elevation?
