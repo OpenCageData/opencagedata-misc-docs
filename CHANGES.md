@@ -1,4 +1,4 @@
-Changes to API output. Full [API docs](https://geocoder.opencagedata.com/api)
+Changes to OpenCage Geocoder API output. Full [API docs](https://geocoder.opencagedata.com/api).
 
 * 20160503
    
