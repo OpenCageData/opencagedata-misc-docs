@@ -1,4 +1,8 @@
-Changes to OpenCage Geocoder API output. Full [API docs](https://geocoder.opencagedata.com/api).
+Changes to OpenCage Geocoder API. Full [API docs](https://geocoder.opencagedata.com/api).
+
+* 20160601
+
+   new optional request parameter `no_record`. [See full list of optional parameters](https://geocoder.opencagedata.com/api#forward-opt).
 
 * 20160503
    
