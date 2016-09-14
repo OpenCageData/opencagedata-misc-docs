@@ -1,5 +1,9 @@
 Changes to OpenCage Geocoder API. Full [API docs](https://geocoder.opencagedata.com/api).
 
+* 20160914
+
+   The optional parameter `countrycode` can be a comma seperated list of 2-letter country codes  [See full list of optional parameters](https://geocoder.opencagedata.com/api#forward-opt).
+
 * 20160830
 
    Previously if a road name in the components field had been a digit it had been returned as a number not a string. This was unintentional and is now fixed. The road name is always returned as a string.
