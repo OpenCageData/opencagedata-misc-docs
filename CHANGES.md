@@ -1,5 +1,9 @@
 Changes to OpenCage Geocoder API. Full [API docs](https://geocoder.opencagedata.com/api).
 
+* 20161007
+
+   map view upgraded to leaflet 1.0.1 
+   
 * 20160914
 
    The optional parameter `countrycode` can be a comma seperated list of 2-letter country codes  [See full list of optional parameters](https://geocoder.opencagedata.com/api#forward-opt).
