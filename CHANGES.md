@@ -1,5 +1,9 @@
 Changes to OpenCage Geocoder API. Full [API docs](https://geocoder.opencagedata.com/api).
 
+* 20161020
+
+   added `currency` annotation
+
 * 20161007
 
    map view upgraded to leaflet 1.0.1 
