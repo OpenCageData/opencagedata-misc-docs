@@ -1,5 +1,9 @@
 Changes to OpenCage Geocoder API. Full [API docs](https://geocoder.opencagedata.com/api).
 
+* 20161028
+
+   added `qibla` annotation
+   
 * 20161020
 
    added `currency` annotation
