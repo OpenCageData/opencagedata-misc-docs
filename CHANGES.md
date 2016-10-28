@@ -3,6 +3,7 @@ Changes to OpenCage Geocoder API. Full [API docs](https://geocoder.opencagedata.
 * 20161020
 
    added `currency` annotation
+   [blog post](http://blog.opencagedata.com/post/152063767603/new-annotation-currency)
 
 * 20161007
 
