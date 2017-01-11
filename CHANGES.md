@@ -1,5 +1,9 @@
 Changes to OpenCage Geocoder API. Full [API docs](https://geocoder.opencagedata.com/api).
 
+* 20170111
+
+   requests to geocode invalid coordinates now return a response with status code 400 [Blog post](http://blog.opencagedata.com/post/155733527528/change-to-coordinate-handling).
+
 * 20161219
 
    added `wikidata` annotation. 
