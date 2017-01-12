@@ -1,4 +1,5 @@
 Changes to OpenCage Geocoder API. Full [API docs](https://geocoder.opencagedata.com/api).
+We recommend you also [follow @OpenCageData on twitter](https://twitter.com/opencagedata) and/or [read our blog](http://blog.opencagedata.com/) where all changes are announced. 
 
 * 20170111
 
