@@ -2,6 +2,10 @@
   * Full [API docs](https://geocoder.opencagedata.com/api).
   * We recommend you also [follow @OpenCageData on twitter](https://twitter.com/opencagedata) and/or [read our blog](http://blog.opencagedata.com/) where all changes are announced. 
 
+* 20170311
+
+    some tweaks to how we calculate [confidence score](https://geocoder.opencagedata.com/api#confidence) for some of the backend geocoders, will generally result in slightly lower confidence
+    
 * 20170111
 
    requests to geocode invalid coordinates now return a response with status code 400 [Blog post](http://blog.opencagedata.com/post/155733527528/change-to-coordinate-handling).
