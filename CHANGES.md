@@ -2,6 +2,10 @@
   * Full [API docs](https://geocoder.opencagedata.com/api).
   * We recommend you also [follow @OpenCageData on twitter](https://twitter.com/opencagedata) and/or [read our blog](http://blog.opencagedata.com/) where all changes are announced. 
 
+* 20170415
+
+    new version of the what3words library for our annotation means that we now support Arabic, Finnish, Italian, Mongolian, Polish, and Swedish
+    
 * 20170311
 
     some tweaks to how we calculate [confidence score](https://geocoder.opencagedata.com/api#confidence) for some of the backend geocoders, will generally result in slightly lower confidence
