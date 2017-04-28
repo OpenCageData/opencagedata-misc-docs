@@ -9,7 +9,6 @@ Current work list in a very order of rough priority
 - move away from API registration provider (3scale). Proving too clunky and costly,.
 - add ISO3166-1 codes to results, particularly useful where it differs from countrycode (ex: Guadeloupe (GP))
 - [more code examples, more libraries](https://geocoder.opencagedata.com/code) for less popular languages.
-- begin returning a `formatted_short` string for use cases where display space is limited.
 - better [demo page](https://geocoder.opencagedata.com/demo) to allow testing the various option parameters
 - continue to add country specific code and tests to [address-formatting[(https://github.com/opencagedata/address-formatting) for proper address formatting. Specifically we need experienced help with double byte and right-to-left languages. 
 - release v2 of the API and rename some keys, specifically `confidence`. See discussion [on the blog](http://blog.opencagedata.com/post/127899935808/changing-confidence-scoring) 
