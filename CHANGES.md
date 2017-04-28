@@ -1,6 +1,13 @@
-# Changes to OpenCage Geocoder API. 
   * Full [API docs](https://geocoder.opencagedata.com/api).
   * We recommend you also [follow @OpenCageData on twitter](https://twitter.com/opencagedata) and/or [read our blog](http://blog.opencagedata.com/) where all changes are announced. 
+
+# Changes to OpenCage Geocoder API. 
+
+* 20170428
+    new optional parameter `abbrv`. When supplied we attempt to shorten the `formatted` string that we return. 
+    Abbreviations are open-sourced [in the address-formatting repo](https://github.com/OpenCageData/address-formatting/tree/master/conf/abbreviations).
+    See [all optional parameters](https://geocoder.opencagedata.com/api#forward-opt).
+    
 
 * 20170415
 
