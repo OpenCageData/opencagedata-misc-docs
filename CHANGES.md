@@ -3,7 +3,12 @@
 
 # Changes to OpenCage Geocoder API. 
 
+* 20170517
+
+    We have launched a new account dashboard, removing the 3rd party dashboard from 3scale we had peviously used. Passwords in the old (and new) systems were encrypted, thus making it impossible for us to transfer them to the new system, so the first time you log into the new system you will have to create a new password. Sorry for the inconvenience. 
+
 * 20170428
+
     new optional parameter `abbrv`. When supplied we attempt to shorten the `formatted` string that we return. 
     Abbreviations are open-sourced [in the address-formatting repo](https://github.com/OpenCageData/address-formatting/tree/master/conf/abbreviations).
     See [all optional parameters](https://geocoder.opencagedata.com/api#forward-opt).
