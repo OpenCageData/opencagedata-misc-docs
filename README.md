@@ -7,9 +7,10 @@ We welcome your feedback and will steer our efforts to those features most reque
 
 Current work list in a very order of rough priority
 - continue to improve new user dashboard
+- add a backend geocoder around openaddresses.io data
 - [more code examples, more libraries](https://geocoder.opencagedata.com/code) for less popular languages.
 - better [demo page](https://geocoder.opencagedata.com/demo) to allow testing the various option parameters
-- continue to add country specific tests andabbreviations to [address-formatting[(https://github.com/opencagedata/address-formatting) for proper address formatting. Specifically we need experienced help with double byte and right-to-left languages. 
+- continue to add country specific tests and abbreviations to [address-formatting](https://github.com/opencagedata/address-formatting) for proper address formatting.  
 - release v2 of the API and rename some keys, specifically `confidence`. See discussion [on the blog](http://blog.opencagedata.com/post/127899935808/changing-confidence-scoring) 
 - public status page showing how far we lag in synching OSM edits
 - better ranking of results and documentation of the logic used
@@ -19,5 +20,4 @@ Current work list in a very order of rough priority
 - better way to deal with reported data errors and feed them back to the underlying datasource (ie OSM)
 - better per country routing (sending query to correct geocoder)
 - allow client to specify "strict=1" to get exact coordinates of a postcode rather than first finding nearest address and returning coordinates of that address
-- build geocoder around openaddresses.io data
 - geocoding using celltowers (opencellid database)
