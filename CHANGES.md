@@ -3,6 +3,10 @@
 
 # Changes to OpenCage Geocoder API. 
 
+* 20170601
+  
+   the `components` portion of the result now contains the key `ISO_3166-1_alpha-2` with [the corresponding code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) for that location if we are able to determine it. This is in addition to the two-letter `country_code` which is also returned. This is mainly useful for places like Puerto Rico or Guadeloupe where the two codes differ. 
+   
 * 20170517
 
     We have launched a new account dashboard, removing the 3rd party dashboard from 3scale we had peviously used. Passwords in the old (and new) systems were encrypted, thus making it impossible for us to transfer them to the new system, so the first time you log into the new system you will have to create a new password. Sorry for the inconvenience. 
