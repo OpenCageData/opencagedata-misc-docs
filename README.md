@@ -7,7 +7,6 @@ We welcome your feedback and will steer our efforts to those features most reque
 
 Current work list in a very order of rough priority
 - continue to improve new user dashboard
-- add ISO3166-1 codes to results, particularly useful where it differs from countrycode (ex: Guadeloupe (GP))
 - [more code examples, more libraries](https://geocoder.opencagedata.com/code) for less popular languages.
 - better [demo page](https://geocoder.opencagedata.com/demo) to allow testing the various option parameters
 - continue to add country specific tests andabbreviations to [address-formatting[(https://github.com/opencagedata/address-formatting) for proper address formatting. Specifically we need experienced help with double byte and right-to-left languages. 
