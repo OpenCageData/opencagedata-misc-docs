@@ -11,6 +11,8 @@ Current work list in a very order of rough priority:
 - [more code examples, more libraries](https://geocoder.opencagedata.com/code) for less popular languages.
 - better [demo page](https://geocoder.opencagedata.com/demo) to allow testing the various option parameters
 - continue to add country specific tests and abbreviations to [address-formatting](https://github.com/opencagedata/address-formatting) for proper address formatting.
+- allow registration via single sign-on via google, github, OSM, etc accounts
+- support other payment methods beyond credit card
 - better per country routing (sending query to correct geocoder)
 - better on-boarding experience for new sign ups
 - better ways to deal with reported data errors and feed them back to the underlying datasource (ie OSM)
