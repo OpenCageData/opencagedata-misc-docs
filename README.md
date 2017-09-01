@@ -16,6 +16,7 @@ Current work list in a very order of rough priority:
 - better per country routing (sending query to correct geocoder)
 - better on-boarding experience for new sign ups
 - better ways to deal with reported data errors and feed them back to the underlying datasource (ie OSM)
+- allow customers to label or tag their keys if they have multiple (ie "production", "testing")
 - public status page showing how far we lag in synching OSM edits
 
 Possible future projects:
