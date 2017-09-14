@@ -3,10 +3,11 @@ the OpenCage geocoder roadmap
 
 This document is a public high level overview of what we're working on to improve the OpenCage Geocoder - see http://geocoder.opencagedata.com
 
-We welcome your feedback and will steer our efforts to those features most requested by our customers (note, by customers we mean actual paying customers, not those on the the free tier)
+We welcome your feedback and will steer our efforts to those features most requested by our customers (note, by customers we mean actual paying customers, not those on the the free tier).
 
 Current work list in a very order of rough priority:
 - continue to improve new user dashboard
+- move [our blog](http://blog.opencagedata.com) away from tumblr to a different platform
 - add a backend geocoder around openaddresses.io data
 - [more code examples, more libraries](https://geocoder.opencagedata.com/code) for less popular languages.
 - better [demo page](https://geocoder.opencagedata.com/demo) to allow testing the various option parameters
@@ -16,7 +17,6 @@ Current work list in a very order of rough priority:
 - better per country routing (sending query to correct geocoder)
 - better on-boarding experience for new sign ups
 - better ways to deal with reported data errors and feed them back to the underlying datasource (ie OSM)
-- allow customers to label or tag their keys if they have multiple (ie "production", "testing")
 - public status page showing how far we lag in synching OSM edits
 
 Possible future projects:
