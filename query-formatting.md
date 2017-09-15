@@ -14,6 +14,8 @@ Not Good: `Herr Mustermann, Trierer Straße 15, 99423, Weimar, Deutschland`
 
 Better: `Trierer Straße 15, 99423, Weimar, Deutschland`
 
+This is _the number one_ problem we see with forward geocoding. Leave out everything that is not part of the address.
+
 **3. Please DO include the country in the query, and also please use the optional `country_code` parameter.**
 
 Not Good: `Trierer Straße 15, 99423, Weimar`
