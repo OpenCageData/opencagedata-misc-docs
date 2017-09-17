@@ -1,28 +1,33 @@
-the OpenCage geocoder roadmap
+The OpenCage geocoder roadmap
 ====================
 
-This document is a public high level overview of what we're working on to improve the OpenCage Geocoder - see http://geocoder.opencagedata.com
+This document is a public high level overview of what we're working on to improve the [OpenCage Geocoder](https://geocoder.opencagedata.com)
 
-We welcome your feedback and will steer our efforts to those features most requested by our customers (note, by customers we mean actual paying customers, not those on the the free tier).
+We welcome [your feedback](https://geocoder.opencagedata.com/contact) and will steer our efforts to those features most requested by our customers (note, by customers we mean actual paying customers, not free trial users).
 
-Current work list in a very order of rough priority:
-- continue to improve new user dashboard
+**Current work list in a very order of rough priority:**
+
+***New projects/features***
 - move [our blog](http://blog.opencagedata.com) away from tumblr to a different platform
-- add a backend geocoder around openaddresses.io data
-- [more code examples, more libraries](https://geocoder.opencagedata.com/code) for less popular languages.
 - better [demo page](https://geocoder.opencagedata.com/demo) to allow testing the various option parameters
-- continue to add country specific tests and abbreviations to [address-formatting](https://github.com/opencagedata/address-formatting) for proper address formatting.
-- allow registration via single sign-on via google, github, OSM, etc accounts
+- add a backend geocoder around openaddresses.io data
 - support other payment methods beyond credit card
 - better per country routing (sending query to correct geocoder)
 - better on-boarding experience for new sign ups
 - better ways to deal with reported data errors and feed them back to the underlying datasource (ie OSM)
 - public status page showing how far we lag in synching OSM edits
+- allow single sign-on via OpenStreetMap accounts
 
-Possible future projects:
+***On-going improvements***
+- continue to improve user dashboard
+- continue to add country specific tests and abbreviations to [address-formatting](https://github.com/opencagedata/address-formatting) for proper address formatting.
+- [more code examples, more libraries](https://geocoder.opencagedata.com/code) for languages we're missing.
+
+***Possible future projects:***
 - release v2 of the API and rename some keys, specifically `confidence`. See discussion [on the blog](http://blog.opencagedata.com/post/127899935808/changing-confidence-scoring) 
 - better ranking of results and documentation of the logic used
-- "annotations" - ie adding additional data to responses for example 
+- new "annotations" - ie adding additional data to responses for example 
   - elevation?
 - allow client to specify "strict=1" to get exact coordinates of a postcode rather than first finding nearest address and returning coordinates of that address
 - geocoding using celltowers (opencellid database)
+
