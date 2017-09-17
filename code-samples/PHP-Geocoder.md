@@ -1,4 +1,5 @@
-This document shows how to query the OpenCage geocoding using
+This document shows how to query the
+[OpenCage geocoder](https://geocoder.opencagedata.com/) using
 William Durand's [Geocoder-PHP](http://geocoder-php.org/Geocoder/) library.
 
 To get tests passing we had to:
@@ -7,7 +8,7 @@ To get tests passing we had to:
 * Install Composer (https://getcomposer.org/download/)
 * Install php-curl, php-xml and php-mbstring
 * Run `composer install` and `composer install --dev`
-* Run `cp phpunit.xml.dist phpunit.xml` and add our OpenCage API key
+* Run `cp phpunit.xml.dist phpunit.xml` and add your OpenCage API key (to get a free trial key register on the OpenCage site)
 * Run `composer test`
 
 _Example Reverse_
