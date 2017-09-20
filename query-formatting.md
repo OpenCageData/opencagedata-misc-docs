@@ -30,14 +30,14 @@ Better: `Trierer Straße 15, 99423, Weimar, Deutschland`
 
 remove things like `c/o` (common abbreviation for 'care of'), or `PO BOX` that do not actually specify the location
 
-**5. Remove unneeded address information. An extension of the rule above. Each additional word increases the chance of confusing things, so if possible remove unhelpful address information like "Floor" or "Suite" or "Apt" that don't help with determining the location **
+**5. Remove unneeded address information. An extension of the rule above. Each additional word increases the chance of confusing things, so if possible remove unhelpful address information like "Floor" or "Suite" or "Apt" that don't help with determining the location.**
 
 Not Good: `720 VETERANS BLVD; STE 100`
 
 Better: `720 VETERANS Boulevard`
 
 
-**6. If you are putting the address together from pieces please ensure that those pieces are meaningful. We often see people send us queries that include `undefined` or `NaN` or just empty fields **
+**6. If you are putting the address together from pieces please ensure that those pieces are meaningful. We often see people send us queries that include `undefined` or `NaN` or just empty fields.**
 
 Not Good: `undefined,Lincolnton,NC,28092`
 
