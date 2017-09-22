@@ -8,7 +8,6 @@ We welcome [your feedback](https://geocoder.opencagedata.com/contact) and will s
 **Current work list in a very order of rough priority:**
 
 ***New projects/features***
-- move [our blog](http://blog.opencagedata.com) away from tumblr to a different platform
 - better [demo page](https://geocoder.opencagedata.com/demo) to allow testing the various option parameters
 - add a backend geocoder around openaddresses.io data
 - support other payment methods beyond credit card
