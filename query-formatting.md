@@ -45,7 +45,13 @@ Not Good: `,,,NC,28092`
 
 Better: `Lincolnton,NC,28092`
 
-**7. Treat postal codes as strings, not numbers. We often see queries with four digit ZIP codes because the leading 0 has been removed because somewhere along the way it was trated as a number rather than a string. If you know postal codes should be five digits add a check to ensure you are only sending us five digit strings.** 
+**7. Remove placeholders like XXXX for an unknown postcode digits**
+
+Not Good: `Augartenstrabe 26-28, Wien, xxxx, Österreich`
+
+Better: `Augartenstrabe 26-28, Wien, Österreich`
+
+**8. Treat postal codes as strings, not numbers. We often see queries with four digit postal codes when they should be five because the leading 0 has been removed somewhere along the way it was treated as a number rather than a string. If you know postal codes should be five digits add a check to ensure you are only sending us five digit strings.** 
 
 Not Good: `77 Massachusetts Ave, Cambridge, MA 2142`
 
