@@ -15,7 +15,9 @@ _Forward Example_
 
     result = results.first
 
-    puts "#{result.latitude}, #{result.longitude}"
+    puts "#{result.latitude}, #{result.longitude}"   
+    # output is 43.463796, -80.52608
+
 
 _Reverse Example_
 
@@ -24,3 +26,10 @@ _Reverse Example_
     require 'geocoder'
 
     Geocoder.configure(lookup: :opencagedata, api_key: "YOUR-OPENCAGE-API-KEY")
+    
+    results = Geocoder.search([43.463796, -80.52608], reverse_geocode: true)
+    
+    result = results.first
+    
+    puts result.address
+    # output is "63 Erb Street West, Waterloo, ON N2L 1V4, Canada"
