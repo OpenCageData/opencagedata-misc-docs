@@ -11,6 +11,7 @@ We welcome [your feedback](https://geocoder.opencagedata.com/contact) and will s
 - add a backend geocoder around openaddresses.io data
 - support other payment methods beyond credit card
 - better per country routing (sending query to correct geocoder)
+- make it more clear to client when they enter bad queries (ex: typos in postcodes)
 - better on-boarding experience for new sign ups
 - better ways to deal with reported data errors and feed them back to the underlying datasource (ie OSM)
 - public status page showing how far we lag in synching OSM edits
