@@ -8,7 +8,6 @@ We welcome [your feedback](https://geocoder.opencagedata.com/contact) and will s
 **Current work list in a very order of rough priority:**
 
 ***New projects/features***
-- better [demo page](https://geocoder.opencagedata.com/demo) to allow testing the various option parameters
 - add a backend geocoder around openaddresses.io data
 - support other payment methods beyond credit card
 - better per country routing (sending query to correct geocoder)
