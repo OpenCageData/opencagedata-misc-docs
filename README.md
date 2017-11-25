@@ -15,6 +15,7 @@ We welcome [your feedback](https://geocoder.opencagedata.com/contact) and will s
 - better on-boarding experience for new sign ups
 - better ways to deal with reported data errors and feed them back to the underlying datasource (ie OSM)
 - public status page showing how far we lag in synching OSM edits
+- add ability for customers to delete their credit card from Stripe
 - allow single sign-on via OpenStreetMap accounts
 
 ***On-going improvements***
