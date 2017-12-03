@@ -3,6 +3,10 @@
 
 # Changes to OpenCage Geocoder API. 
 
+* 20171203
+
+   added `flag` annotation. See [the full list of annotations](https://geocoder.opencagedata.com/api#annotations),
+
 * 20171005
   
    In many parts of the world roads may have names but also numbers or some sort of unique identifier code. In cases where the result for a reverse geocoding query is such a road, the `components` portion of the response now also contains a `road_reference` key and value. In Europe some major highways may also have a national and European reference (for example "A 6" and "E 15"). In such cases we also set the `road_reference_intl` key and value.
