@@ -31,5 +31,6 @@ We welcome [your feedback](https://geocoder.opencagedata.com/contact) and will s
 - new "annotations" - ie adding additional data to responses for example 
   - elevation?
 - allow client to specify "strict=1" to get exact coordinates of a postcode rather than first finding nearest address and returning coordinates of that address
+- new optional paramter to allow filtering by `_type`
 - geocoding using celltowers (opencellid database)
 
