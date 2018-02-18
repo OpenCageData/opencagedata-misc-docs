@@ -13,9 +13,11 @@ We welcome [your feedback](https://geocoder.opencagedata.com/contact) and will s
 - better per country routing (sending query to correct geocoder)
 - make it more clear to client when they enter bad queries (ex: typos in postcodes)
 - better on-boarding experience for new sign ups
+- return a "relevance" score (as opposed to currenct [confidence score](https://geocoder.opencagedata.com/api#confidence))
+- allow a user-supplied given point and sort by distance from that point (as opposed to current optional `bounds` param)
 - better ways to deal with reported data errors and feed them back to the underlying datasource (ie OSM)
 - public status page showing how far we lag in synching OSM edits
-- add ability for customers to delete their credit card from Stripe
+- add ability for customers to delete their credit card from Stripe (currently done manually upon request).
 - allow single sign-on via OpenStreetMap accounts
 
 ***On-going improvements***
