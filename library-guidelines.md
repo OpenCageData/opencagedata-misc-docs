@@ -11,7 +11,7 @@ If you are developing a new library or integration that uses the OpenCage Geocod
 5. In your documentation or README, please point your users the [best practices for using the OpenCage API](https://geocoder.opencagedata.com/api#bestpractices), particularly our advice for [how to format forward geocoding queries](https://github.com/OpenCageData/opencagedata-roadmap/blob/master/query-formatting.md).  
 
 6. In your documentation please show a few common usecases:
-  * at least on example of both forward and reverse geocoding
+  * at least one example of both forward and reverse geocoding
   * print a result to STDOUT
 
 7. Please add a license to your code. Which one is up to you, but no license makes it harder for others to contribute. 
