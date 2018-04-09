@@ -3,6 +3,10 @@
 
 # Changes to OpenCage Geocoder API. 
 
+* 20180403
+  
+  added [the Addok geocoder](http://addok.readthedocs.io/fr/latest/) as one of the backend geocoders we query
+
 * 20171203
 
    added `flag` annotation. See [the full list of annotations](https://geocoder.opencagedata.com/api#annotations),
