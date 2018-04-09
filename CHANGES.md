@@ -3,9 +3,14 @@
 
 # Changes to OpenCage Geocoder API. 
 
+
 * 20180403
   
   added [the Addok geocoder](http://addok.readthedocs.io/fr/latest/) as one of the backend geocoders we query
+  
+* 20180302
+
+  new page to clarify [GDPR/data protection](https://geocoder.opencagedata.com/gdpr)
 
 * 20171203
 
