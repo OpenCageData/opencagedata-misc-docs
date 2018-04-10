@@ -11,6 +11,7 @@ If you are developing a new library or integration that uses the OpenCage Geocod
 5. In your documentation or README, please point your users the [best practices for using the OpenCage API](https://geocoder.opencagedata.com/api#bestpractices), particularly our advice for [how to format forward geocoding queries](https://github.com/OpenCageData/opencagedata-roadmap/blob/master/query-formatting.md).  
 
 6. In your documentation please show a few common usecases:
+
   * at least one example of both forward and reverse geocoding
   * print a result to STDOUT
 
@@ -22,7 +23,9 @@ If you are developing a new library or integration that uses the OpenCage Geocod
 
 10. Please submit your code to the relevant package manager (npm, CPAN, etc) for that language, and link to this in the documentation. 
 
-11. Finally, don't forget to let us know what you've built so we can [add it to the list](https://geocoder.opencagedata.com/code) and feature it on [our blog](https://blog.opencagedata.com)! 
+11. Please set up an automted build froma service like [TravisCI](https://travis-ci.org) and add a build status badge on the README
+
+12. Finally, don't forget to let us know what you've built so we can [add it to the list](https://geocoder.opencagedata.com/code) and feature it on [our blog](https://blog.opencagedata.com)! 
 
 If you have any questions, please [just ask](https://geocoder.opencagedata.com/contact), we are here to help.
 
