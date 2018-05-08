@@ -10,11 +10,11 @@ This document lays out the responsibilities of Opencage Data Ltd. (UK Company nu
   
    * OpenCage's customers are Data Controllers. 
  
-  * “personal data” means any information relating to an identified or identifiable person.
+  * “Personal data” means any information relating to an identified or identifiable person.
 
   * “Data Protection Laws” means EU Directive 95/46/EC, as transposed into domestic legislation of each Member State and as amended, replaced or superseded from time to time, including by the GDPR and laws implementing or supplementing the GDPR and, to the extent applicable, the data protection and privacy laws of the United Kingdom.
   
-  * "Services" means the OpenCage geocoding API (application program interface)
+  * "Services" means the OpenCage geocoding API (application program interface) and the professional services provided by OpenCage.
   
   * “Sub-processor” means any Data Processor engaged by OpenCage.
   
@@ -33,9 +33,9 @@ This document lays out the responsibilities of Opencage Data Ltd. (UK Company nu
 
 ### 3. Rights of Data Subjects
 
-1. the Data Controller is solely responsible for the collecting of all necessary consent from Data Subjects to allow OpenCage to process personal data on its behalf.
+1. The Data Controller is solely responsible for the collecting of all necessary consent from Data Subjects to allow OpenCage to process personal data on its behalf.
 
-2. OpenCage will, to the extent legally permitted, promptly notify the Data Controller if it receives a request from a Data Subject for access to or deletion of that person’s personal data. OpenCage will not respond to a Data Subject request without the Data Controllers prior written consent except to confirm that the request relates to the Data Controller. The Data Controller is solely responsible for completing such request as required by law.
+2. OpenCage will, to the extent legally permitted, promptly notify the Data Controller if it receives a request from a Data Subject for access to, or deletion of, that person’s personal data. OpenCage will not respond to a Data Subject request without the Data Controllers prior written consent except to confirm that the request relates to the Data Controller. The Data Controller is solely responsible for completing such request as required by law.
 
 ### 4. Personnel
 
