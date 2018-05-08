@@ -1,10 +1,12 @@
 ## Opencage Data Ltd Data Processing Agreement 
 
-This document lays out the responsibilities of Opencage Data Ltd. (UK Company number 09485974), hereafter referred to as **OpenCage**, to its customers with regards to data protection in general and the European Union’s General Data Protection Regulation (GDPR) specifically.
+This document lays out the responsibilities of Opencage Data Ltd. (UK Company number 09485974), hereafter referred to as OpenCage, to its customers with regards to data protection in general and the European Union’s General Data Protection Regulation (GDPR) specifically.
+
+This document applies from 8 May 2018
 
 ### 1. OpenCage as Data Processor, Definitions
 
-  * OpenCage is a **Data Processor** operating on behalf of its customers. 
+  * OpenCage is a Data Processor operating on behalf of its customers. 
     
   * Customers are individuals or organizations paying money to use the OpenCage service. Free trial users of the OpenCage Service are not Customers and should not send OpenCage personal data.
   
@@ -53,7 +55,7 @@ This document lays out the responsibilities of Opencage Data Ltd. (UK Company nu
 
 ### 6. Security
 
-1. OpenCage agrees to implement and maintain the administrative, technical, and physical safeguards of personal data stored using the Services.
+1. OpenCage agrees to implement and maintain the administrative, technical, and physical safeguards of personal data stored using the Services. 
 
 ### 7. Security Breach Management and Notification
 
