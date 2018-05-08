@@ -10,7 +10,7 @@ This document applies from 8 May 2018
     
   * Customers are individuals or organizations paying money to use the OpenCage service. Free trial users of the OpenCage Service are not Customers and should not send OpenCage personal data.
   
-   * OpenCage's customers are Data Controllers. 
+   * OpenCage's Customers are Data Controllers. 
  
   * “Personal data” means any information relating to an identified or identifiable person.
 
@@ -63,19 +63,19 @@ This document applies from 8 May 2018
 
 2. The Data Controller agrees that an unsuccessful Security Breach attempt will not be subject to Section 7.1 above. An unsuccessful Security Breach attempt is one that results in no unauthorized access to the Data Controller's personal data or to the Services storing your Personal Data, and may include, without limitation, pings and other broadcast attacks on firewalls or edge servers, port scans, unsuccessful log-on attempts, denial of service attacks, packet sniffing (or other unauthorized access to traffic data that does not result in access beyond IP addresses or headers) or similar incidents.
 
-3. Notification(s) of Security Breaches, if any, will be delivered to one or more of Customer’s business, technical or administrative contacts by any means OpenCage selects, including via email. It is Customer’s sole responsibility to ensure it maintains accurate contact information on OpenCage’s support systems at all times.
+3. Notification(s) of Security Breaches, if any, will be delivered to one or more of the Customer’s business, technical or administrative contacts by any means OpenCage selects, including via email. It is Customer’s sole responsibility to ensure it maintains accurate contact information on OpenCage’s support systems at all times.
 
 4. OpenCage’s report of and/or response to a Security Breach under this Section will not be construed as an admission by OpenCage to fault or liability with respect to the Security Breach.
 
 ### 8. Deletion of Customer Data
 
-1. OpenCage agrees to delete customer personal data in accordance with OpenCage’s procedures and Data Protection Laws.
+1. OpenCage agrees to delete Customer personal data in accordance with OpenCage’s procedures and Data Protection Laws.
 
 2. At a Customer's request, OpenCage will provide the Customer with a certification of deletion of personal data.
 
 ### 9. Legal Effect
 
-1. This agreement comes into effect from the time of purchase of an OpenCage subscription. It expires with cessation of the customer's OpenCage subscription. 
+1. This agreement comes into effect from the time of purchase of an OpenCage subscription. It expires with cessation of the Customer's OpenCage subscription. 
 
 
 
