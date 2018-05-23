@@ -2,8 +2,6 @@
 
 This document lays out the responsibilities of Opencage Data Ltd. (UK Company number 09485974), hereafter referred to as OpenCage, to its customers with regards to data protection in general and the European Union’s General Data Protection Regulation (GDPR) specifically.
 
-This document applies from 8 May 2018
-
 ### 1. OpenCage as Data Processor, Definitions
 
   * OpenCage is a Data Processor operating on behalf of its customers. 
@@ -75,7 +73,7 @@ This document applies from 8 May 2018
 
 ### 9. Legal Effect
 
-1. This agreement comes into effect from the time of purchase of an OpenCage subscription. It expires with cessation of the Customer's OpenCage subscription. 
+1. This agreement comes into effect from the 25th of May 2018 for all existing customers, or from the time of purchase of an OpenCage subscription. It expires with cessation of the Customer's OpenCage subscription. 
 
 
 
