@@ -3,6 +3,9 @@
 
 # Changes to OpenCage Geocoder API. 
 
+* 20180614
+  
+  if a result is a road (ie `_type` key in the `components` portion of the result is "road") if possible we now also return a `road_type` with values like those [generally used in OpenStreetMap](https://wiki.openstreetmap.org/wiki/Key:highway)
 
 * 20180403
   
