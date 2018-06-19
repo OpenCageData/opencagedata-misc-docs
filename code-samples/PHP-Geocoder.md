@@ -1,5 +1,5 @@
 This document shows how to query the
-[OpenCage geocoder](https://geocoder.opencagedata.com/) using
+[OpenCage geocoder](https://opencagedata.com) using
 William Durand's [Geocoder-PHP](http://geocoder-php.org/Geocoder/) library.
 
 To get tests passing we had to:

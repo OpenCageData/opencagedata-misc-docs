@@ -1,5 +1,5 @@
 This document shows how to query the
-[OpenCage geocoder](https://geocoder.opencagedata.com/) using
+[OpenCage geocoder](https://opencagedata.com) using
 the ruby [geokit gem](https://github.com/geokit/geokit).
 
 _Reverse Example_

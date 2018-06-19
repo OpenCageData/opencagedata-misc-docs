@@ -13,7 +13,7 @@ We welcome [your feedback](https://geocoder.opencagedata.com/contact) and will s
 - better per country routing (sending query to correct geocoder)
 - make it more clear to client when they enter bad queries (ex: typos in postcodes)
 - better on-boarding experience for new sign ups
-- return a "relevance" score (as opposed to currenct [confidence score](https://geocoder.opencagedata.com/api#confidence))
+- return a "relevance" score (as opposed to currenct [confidence score](https://opencagedata.com/api#confidence))
 - allow a user-supplied given point and sort by distance from that point (as opposed to current optional `bounds` param)
 - better ways to deal with reported data errors and feed them back to the underlying datasource (ie OSM)
 - public status page showing how far we lag in synching OSM edits
@@ -23,7 +23,7 @@ We welcome [your feedback](https://geocoder.opencagedata.com/contact) and will s
 ***On-going improvements***
 - continue to improve user dashboard
 - continue to add country specific tests and abbreviations to [address-formatting](https://github.com/opencagedata/address-formatting) for proper address formatting.
-- [more code examples, more libraries](https://geocoder.opencagedata.com/code) for languages we're missing.
+- [more code examples, more libraries](https://opencagedata.com/code) for languages we're missing.
 
 ***Possible future projects:***
 - release v2 of the API and rename some keys, specifically `confidence`. See discussion [on the blog](http://blog.opencagedata.com/post/127899935808/changing-confidence-scoring) 

@@ -1,6 +1,6 @@
-This document lists some steps you can take to format the forward geocoding queries you send to the [OpenCage Geocoder](https://geocoder.opencagedata.com).
+This document lists some steps you can take to format the forward geocoding queries you send to the [OpenCage Geocoder](https://opencagedata.com).
 
-Please see the [full API documentation](https://geocoder.opencagedata.com/api) for information on reverse geocoding or on the various other parameters you can specify in your request. This document concerns only the query (`q` in the request)
+Please see the [full API documentation](https://opencagedata.com/api) for information on reverse geocoding or on the various other parameters you can specify in your request. This document concerns only the query (`q` in the request)
 
 **1. Please DO separate the parts of the location with a comma.**
 

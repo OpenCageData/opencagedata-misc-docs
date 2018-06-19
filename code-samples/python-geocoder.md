@@ -1,5 +1,5 @@
 This document shows how to query the
-[OpenCage geocoder](https://geocoder.opencagedata.com/) using
+[OpenCage geocoder](https://opencagedata.com) using
 Denis Carriere's python [geocoder](http://geocoder.readthedocs.io) library.
 
 _Reverse Example_

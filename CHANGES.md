@@ -21,11 +21,11 @@
   
 * 20180302
 
-  new page to clarify [GDPR/data protection](https://geocoder.opencagedata.com/gdpr)
+  new page to clarify [GDPR/data protection](https://opencagedata.com/gdpr)
 
 * 20171203
 
-   added `flag` annotation. See [the full list of annotations](https://geocoder.opencagedata.com/api#annotations).
+   added `flag` annotation. See [the full list of annotations](https://opencagedata.com/api#annotations).
 
 * 20171005
   
@@ -43,7 +43,7 @@
 
     new optional parameter `abbrv`. When supplied we attempt to shorten the `formatted` string that we return. 
     Abbreviations are open-sourced [in the address-formatting repo](https://github.com/OpenCageData/address-formatting/tree/master/conf/abbreviations).
-    See [all optional parameters](https://geocoder.opencagedata.com/api#forward-opt).
+    See [all optional parameters](https://opencagedata.com/api#forward-opt).
     
 
 * 20170415
@@ -52,7 +52,7 @@
     
 * 20170311
 
-    some tweaks to how we calculate [confidence score](https://geocoder.opencagedata.com/api#confidence) for some of the backend geocoders, will generally result in slightly lower confidence
+    some tweaks to how we calculate [confidence score](https://opencagedata.com/api#confidence) for some of the backend geocoders, will generally result in slightly lower confidence
     
 * 20170111
 
@@ -77,7 +77,7 @@
    
 * 20160914
 
-   The optional parameter `countrycode` can be a comma seperated list of 2-letter country codes  [See full list of optional parameters](https://geocoder.opencagedata.com/api#forward-opt).
+   The optional parameter `countrycode` can be a comma seperated list of 2-letter country codes  [See full list of optional parameters](https://opencagedata.com/api#forward-opt).
 
 * 20160830
 
@@ -85,7 +85,7 @@
 
 * 20160601
 
-   new optional request parameter `no_record`. [See full list of optional parameters](https://geocoder.opencagedata.com/api#forward-opt).
+   new optional request parameter `no_record`. [See full list of optional parameters](https://opencagedata.com/api#forward-opt).
 
 * 20160503
    
@@ -93,5 +93,5 @@
    
 * 20160423
    
-   add `_type` key to the `components` list so that the type of object we geocoded to can more easily be determined. [See docs](https://geocoder.opencagedata.com/api#formatted).
+   add `_type` key to the `components` list so that the type of object we geocoded to can more easily be determined. [See docs](https://opencagedata.com/api#formatted).
    

@@ -1,5 +1,5 @@
 This document shows how to query the
-[OpenCage geocoder](https://geocoder.opencagedata.com/) using
+[OpenCage geocoder](https://opencagedata.com) using
 Alex Reisner's ruby [geocoder](http://www.rubygeocoder.com) library.
 
 
