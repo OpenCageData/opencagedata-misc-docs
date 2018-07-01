@@ -3,6 +3,10 @@
 
 # Changes to OpenCage Geocoder API. 
 
+* 20180701
+
+  From 1 August 2018 non-GET HTTP requests will be treated as errors. Please see [our blog post for full details](https://blog.opencagedata.com/post/no-longer-supporting-non-get-requests).
+
 * 20180619
 
   our website moved to [https://opencagedata.com](https://opencagedata.com).
