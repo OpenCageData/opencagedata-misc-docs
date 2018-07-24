@@ -3,6 +3,11 @@
 
 # Changes to OpenCage Geocoder API. 
 
+
+* 20180724
+
+  New optional parameter `proximity` for biasing results is now supported. [See docs](https://opencagedata.com/api#forward-opt).
+  
 * 20180701
 
   From 1 August 2018 non-GET HTTP requests will be treated as errors. Please see [our blog post for full details](https://blog.opencagedata.com/post/no-longer-supporting-non-get-requests).
