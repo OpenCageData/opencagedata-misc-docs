@@ -3,7 +3,10 @@
 
 # Changes to OpenCage Geocoder API. 
 
+* 20180727
 
+   added `FIPS` annotation for locations in the United States. [See docs](https://opencagedata.com/api#annotations).
+  
 * 20180724
 
   New optional parameter `proximity` for biasing results is now supported. [See docs](https://opencagedata.com/api#forward-opt).
