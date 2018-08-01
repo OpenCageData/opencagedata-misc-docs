@@ -3,6 +3,10 @@
 
 # Changes to OpenCage Geocoder API. 
 
+* 20180801
+  
+  non-GET HTTP requests to the API now return `405 - Method not allowed` error.
+  
 * 20180727
 
    added `FIPS` annotation for locations in the United States. [See docs](https://opencagedata.com/api#annotations).
