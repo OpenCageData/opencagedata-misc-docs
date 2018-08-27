@@ -3,6 +3,10 @@
 
 # Changes to OpenCage Geocoder API. 
 
+* 20180827
+  
+  previously results in `geojson` format had not returned some of the fields (examples include `status`, `timestamp`, and more) that other response formats had. This is now corrected, sorry for the oversight.
+
 * 20180801
   
   non-GET HTTP requests to the API now return `405 - Method not allowed` error.
