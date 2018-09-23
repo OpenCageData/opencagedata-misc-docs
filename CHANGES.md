@@ -3,6 +3,10 @@
 
 # Changes to OpenCage Geocoder API. 
 
+* 20180923
+  
+  new version of the what3words library for our annotation means that we now support Afrikaans, Czech, Danish, Dutch, Greek, Japanese, Korean, Norwegian, Thai, Xhosa, and Zulu.
+
 * 20180902
   
   we have significantly improved the granularity and coverage of [our timezone annotation](https://opencagedata.com/api#annotations).
