@@ -1,6 +1,8 @@
 If you are developing a new library or integration that uses the OpenCage Geocoder please follow these guidelines:
 
-1. First, check [the existing list of libraries](https://opencagedata.com/code) and make sure what you are planning on writing doesn't already exist. Perhaps you can extend one of the existing projects rather than restarting from scratch?
+0. This may seem obvious, but before you start please take 10-15 minutes and [read the API docs](https://opencagedata.com/api). It's only one page. 
+
+1. OK, ready? First, check [the existing list of libraries](https://opencagedata.com/code) and make sure what you are planning on writing doesn't already exist. Perhaps you can extend one of the existing projects rather than restarting from scratch?
 
 2. Ensure that your code [respects the various response codes](https://opencagedata.com/api#codes). Don't unintentionally build a denial of service tool. Specifically, if you see `402` or `403` response codes, you library should stop rather than just carry on. 
 
@@ -23,7 +25,7 @@ If you are developing a new library or integration that uses the OpenCage Geocod
 
 10. Please submit your code to the relevant package manager (npm, CPAN, etc) for that language, and link to this in the documentation. 
 
-11. Please set up an automted build froma service like [TravisCI](https://travis-ci.org) and add a build status badge on the README
+11. Please set up an automted build from a service like [TravisCI](https://travis-ci.org) and add a build status badge on the README
 
 12. Finally, don't forget to let us know what you've built so we can [add it to the list](https://opencagedata.com/code) and feature it on [our blog](https://blog.opencagedata.com)! 
 
