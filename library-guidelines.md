@@ -1,4 +1,4 @@
-If you are developing a new library or integration that uses the OpenCage Geocoder please follow these guidelines:
+If you are developing a new library or integration that uses the [OpenCage Geocoder](https://opencagedata.com) please follow these guidelines:
 
 0. This may seem obvious, but before you start please take 10-15 minutes and [read the API docs](https://opencagedata.com/api). It's only one page. 
 
