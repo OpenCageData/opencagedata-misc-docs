@@ -1,0 +1,84 @@
+{
+	"_type": "export",
+	"__export_format": 3,
+	"__export_date": "2018-10-23T13:52:16.536Z",
+	"__export_source": "insomnia.desktop.app:v6.0.2",
+	"resources": [
+		{
+			"_id": "wrk_eab7778562a744d4a74f2bc1a7eac540",
+			"created": 1540300121486,
+			"description": "",
+			"modified": 1540300121486,
+			"name": "OpenCage Geocoder",
+			"parentId": null,
+			"_type": "workspace"
+		},
+		{
+			"_id": "env_80bba9f28a374b18983e0f15ccc85f86",
+			"color": null,
+			"created": 1540300121520,
+			"data": {
+				"OPENCAGE_API_KEY": "YOUR-API-KEY"
+			},
+			"isPrivate": false,
+			"metaSortKey": 1540300121520,
+			"modified": 1540302709100,
+			"name": "OpenCage Geocoder Environment",
+			"parentId": "wrk_eab7778562a744d4a74f2bc1a7eac540",
+			"_type": "environment"
+		},
+		{
+			"_id": "jar_724240a1da8b4da686812c132f349800",
+			"cookies": [],
+			"created": 1540300121522,
+			"modified": 1540300121522,
+			"name": "Default Jar",
+			"parentId": "wrk_eab7778562a744d4a74f2bc1a7eac540",
+			"_type": "cookie_jar"
+		},
+		{
+			"_id": "req_a3e52f7a0d0244b9b6cd5d53b86c13e6",
+			"authentication": {},
+			"body": {},
+			"created": 1540300741368,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1540300741368,
+			"method": "GET",
+			"modified": 1540302709436,
+			"name": "OpenCage Reverse request",
+			"parameters": [
+				{
+					"id": "pair_4e2b90c4de3b4ea688866fb73ec98734",
+					"name": "q",
+					"value": "41.40139, 2.12870"
+				},
+				{
+					"id": "pair_f4417eeddd404e929e4244db0e7df6f9",
+					"name": "key",
+					"value": "{{ OPENCAGE_API_KEY  }}"
+				},
+				{
+					"id": "pair_9ff9a886606546aba4f608da5b686d15",
+					"name": "language",
+					"value": "en"
+				},
+				{
+					"id": "pair_5a3c3dbb253e4de3a944b20a1f643a98",
+					"name": "pretty",
+					"value": "1"
+				}
+			],
+			"parentId": "wrk_eab7778562a744d4a74f2bc1a7eac540",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "https://api.opencagedata.com/geocode/v1/json?",
+			"_type": "request"
+		}
+	]
+}
