@@ -1,9 +1,11 @@
 The OpenCage geocoder roadmap
 ====================
 
-This document is a public high level overview of what we're working on to improve the [OpenCage Geocoder](https://geocoder.opencagedata.com)
+This document is a public high level overview of what we're working on to improve the [OpenCage Geocoder](https://opencagedata.com).
 
-We welcome [your feedback](https://geocoder.opencagedata.com/contact) and will steer our efforts to those features most requested by our customers (note, by customers we mean actual paying customers, not free trial users).
+We welcome [your feedback](https://opencagedata.com/contact) and will steer our efforts to those features most requested by our customers (note, by customers we mean actual paying customers, not free trial users). 
+
+On [our change log](CHANGES.md) we document produce changes once they go live.
 
 **Current work list in a very order of rough priority:**
 
