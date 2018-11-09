@@ -25,7 +25,7 @@ If you are developing a new library or integration that uses the [OpenCage Geoco
 
 10. Please submit your code to the relevant package manager (npm, CPAN, etc) for that language, and link to this in the documentation. 
 
-11. Please set up an automted build from a service like [TravisCI](https://travis-ci.org) and add a build status badge on the README
+11. Please set up an automated build from a service like [TravisCI](https://travis-ci.org) and add a build status badge on the README
 
 12. Finally, don't forget to let us know what you've built so we can [add it to the list](https://opencagedata.com/code) and feature it on [our blog](https://blog.opencagedata.com)! 
 
