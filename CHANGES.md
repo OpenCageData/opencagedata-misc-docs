@@ -3,6 +3,10 @@
 
 # Changes to OpenCage Geocoder API. 
 
+* 20181219
+
+  we now also return a `ISO_3166-1_alpha-3` key and value in the `components` portion of each result
+  
 * 20180923
   
   new version of the what3words library for our annotation means that we now support Afrikaans, Czech, Danish, Dutch, Greek, Japanese, Korean, Norwegian, Thai, Xhosa, and Zulu.
