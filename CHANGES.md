@@ -5,7 +5,7 @@
 
 * 20181219
 
-  we now also return a `ISO_3166-1_alpha-3` key and value in the `components` portion of each result. [See blogpost](https://blog.opencagedata.com/post/now-with-iso3166-1-alpha-3-codes)
+  we now also return a `ISO_3166-1_alpha-3` key and value in the `components` portion of each result. [See blog post](https://blog.opencagedata.com/post/now-with-iso3166-1-alpha-3-codes).
   
 * 20180923
   
