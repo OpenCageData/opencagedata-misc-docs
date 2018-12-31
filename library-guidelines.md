@@ -19,6 +19,7 @@ If you are developing a new library or integration that uses the [OpenCage Geoco
 
       * at least one example of both forward and reverse geocoding
       * print a result to STDOUT
+      * what happens when there are no results - it was a valid query, but no results were found.
       
 8. Please ensure that you support [the various optional API parameters](https://opencagedata.com/api#forward-opt), particularly things like `countrycode`, `abbrv`, `language`, etc.  
 
