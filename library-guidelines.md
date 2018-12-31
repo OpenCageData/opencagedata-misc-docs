@@ -19,18 +19,20 @@ If you are developing a new library or integration that uses the [OpenCage Geoco
 
       * at least one example of both forward and reverse geocoding
       * print a result to STDOUT
-
-8. Please add a license to your code. Which one is up to you, but no license makes it harder for others to contribute. 
+      
+8. Please ensure that you support [the various optional API parameters](https://opencagedata.com/api#forward-opt), particularly things like `countrycode`, `abbrv`, `language`, etc.  
 
 9. Please put your source code on Github, gitlab, etc to make it easy for others to contribute.
 
-10. In your documentation please list any relevant prerequisites that need to be installed for your code to work. Ideally show the exact commands needed to install those prereqs.
+10. Please add a license to your code. Which one is up to you, but no license makes it harder for others to contribute. 
 
-11. Please submit your code to the relevant package manager (npm, CPAN, etc) for that language, and link to this in the documentation. 
+11. In your documentation please list any relevant prerequisites that need to be installed for your code to work. Ideally show the exact commands needed to install those prereqs.
 
-12. Please set up an automated build from a service like [TravisCI](https://travis-ci.org) and add a build status badge on the README
+12. Please submit your code to the relevant package manager (npm, CPAN, etc) for that language, and link to this in the documentation. 
 
-13. Finally, don't forget to let us know what you've built so we can [add it to the list](https://opencagedata.com/code) and feature it on [our blog](https://blog.opencagedata.com) (of course giving you full credit for your work)! 
+13. Please set up an automated build from a service like [TravisCI](https://travis-ci.org) and add a build status badge on the README
+
+14. Finally, don't forget to let us know what you've built so we can [add it to the list](https://opencagedata.com/code) and feature it on [our blog](https://blog.opencagedata.com) (of course giving you full credit for your work)! 
 
 If you have any questions, please [just ask](https://opencagedata.com/contact), we are here to help.
 
