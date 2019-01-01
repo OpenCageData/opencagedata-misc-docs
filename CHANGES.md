@@ -3,6 +3,10 @@
 
 # Changes to OpenCage Geocoder API. 
 
+* 20190101
+
+  we now have a couple of publicly available API keys for use in testing and SDK development that will always generate a response with status `402` and `403`, respectively. You can find them in [the section of the API docs dealing with response codes](https://opencagedata.com/api#codes).
+  
 * 20181219
 
   we now also return a `ISO_3166-1_alpha-3` key and value in the `components` portion of each result. [See blog post](https://blog.opencagedata.com/post/now-with-iso3166-1-alpha-3-codes).
