@@ -3,6 +3,10 @@
 
 # Changes to OpenCage Geocoder API. 
 
+* 20190102
+
+   map view upgraded to leaflet 1.4.0 
+
 * 20190101
 
   we now have a couple of publicly available API keys for use in testing and SDK development that will always generate a response with status `402` and `403`, respectively. You can find them in [the section of the API docs dealing with response codes](https://opencagedata.com/api#codes).
