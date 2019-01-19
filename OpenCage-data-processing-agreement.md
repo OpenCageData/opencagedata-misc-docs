@@ -29,7 +29,7 @@ This document lays out the responsibilities of Opencage Data Ltd. (UK Company nu
 3. OpenCage's API makes available various privacy options, most notably the use of an optional `no_record=1` parameter. The Data Processor is advised to make full use of these options, and bears sole responsibility for failure to do so.
 
 4. OpenCage lays out a full and accurate description of its data protection practices on its website at 
-[https://geocoder.opencagedata.com/gdpr](https://geocoder.opencagedata.com/gdpr). This description is updated from time to time as and when practices change. 
+[https://opencagedata.com/gdpr](https://opencagedata.com/gdpr). This description is updated from time to time as and when practices change. 
 
 ### 3. Rights of Data Subjects
 
