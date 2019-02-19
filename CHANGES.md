@@ -3,6 +3,10 @@
 
 # Changes to OpenCage Geocoder API. 
 
+* 20190219
+
+    when possible we now also return a `continent` key and value in the `components` portion of each result.
+   
 * 20190102
 
    map view upgraded to leaflet 1.4.0 
