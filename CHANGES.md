@@ -5,7 +5,7 @@
 
 * 20190219
 
-    when possible we now also return a `continent` key and value in the `components` portion of each result.
+    when possible we now also return a `continent` key and value in the `components` portion of each result. [See blog post](https://blog.opencagedata.com/post/now-with-continents).
    
 * 20190102
 
