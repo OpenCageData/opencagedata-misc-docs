@@ -15,27 +15,29 @@ If you are developing a new library or integration that uses the [OpenCage Geoco
 
 5. Be aware that the API response varies slightly between free trial accounts and paid customer accounts. Paid accounts do not have the `rate` section of the response ([see docs](https://opencagedata.com/api#rate-limiting)) because paying customers have no hard limits. 
 
-6. In your documentation or README, please point your users the [best practices for using the OpenCage API](https://opencagedata.com/api#bestpractices), particularly our advice for [how to format forward geocoding queries](https://github.com/OpenCageData/opencagedata-roadmap/blob/master/query-formatting.md).  
+6. Please realise we are offering a geocoding for the entire world. The world is a _very_ diverse place. **Design your code to be forgiving**, avoid making assumptions about what will be in the `components` portion of the results. As an example: don't assume we will always return a postcode, much of the world doesn't use postcodes. Indeed, you can not even assume we will return a country or ISO codes, the requested location could be in the middle of the ocean. Please see [our discussion of components in the API docs](https://opencagedata.com/api#formatted). 
 
-7. In your documentation please show a few common usecases:
+7. In your documentation or README, please point your users the [best practices for using the OpenCage API](https://opencagedata.com/api#bestpractices), particularly our advice for [how to format forward geocoding queries](https://github.com/OpenCageData/opencagedata-roadmap/blob/master/query-formatting.md).  
+
+8. In your documentation please show a few common usecases:
 
       * at least one example of both forward and reverse geocoding
       * print a result to STDOUT
       * what happens when there are no results - it was a valid query, but no results were found.
       
-8. Please ensure that you support [the various optional API parameters](https://opencagedata.com/api#forward-opt), particularly things like `countrycode`, `abbrv`, `language`, etc.  
+9. Please ensure that you support [the various optional API parameters](https://opencagedata.com/api#forward-opt), particularly things like `countrycode`, `abbrv`, `language`, etc.  
 
-9. Please put your source code on Github, gitlab, etc to make it easy for others to contribute.
+10. Please put your source code on Github, gitlab, etc to make it easy for others to contribute.
 
-10. Please add a license to your code. Which one is up to you, but no license makes it harder for others to contribute. 
+11. Please add a license to your code. Which one is up to you, but no license makes it harder for others to contribute. 
 
-11. In your documentation please list any relevant prerequisites that need to be installed for your code to work. Ideally show the exact commands needed to install those prereqs.
+12. In your documentation please list any relevant prerequisites that need to be installed for your code to work. Ideally show the exact commands needed to install those prereqs.
 
-12. Please submit your code to the relevant package manager (npm, CPAN, etc) for that language, and link to this in the documentation. 
+13. Please submit your code to the relevant package manager (npm, CPAN, etc) for that language, and link to this in the documentation. 
 
-13. Please set up an automated build from a service like [TravisCI](https://travis-ci.org) and add a build status badge on the README
+14. Please set up an automated build from a service like [TravisCI](https://travis-ci.org) and add a build status badge on the README
 
-14. Finally, don't forget to let us know what you've built so we can [add it to the list](https://opencagedata.com/code) and feature it on [our blog](https://blog.opencagedata.com) (of course giving you full credit for your work)! 
+15. Finally, don't forget to let us know what you've built so we can [add it to the list](https://opencagedata.com/code) and feature it on [our blog](https://blog.opencagedata.com) (of course giving you full credit for your work)! 
 
 If you have any questions, please [just ask](https://opencagedata.com/contact), we are here to help.
 
