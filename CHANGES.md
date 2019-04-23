@@ -3,13 +3,18 @@
 
 # Changes to OpenCage Geocoder API. 
 
+* 20190423
+
+  To aid in debugging we now return HTTP response code `401` in the case when either no API key is supplied in the request, or an invalid API key is supplied. Previously we had returned a `403` response in this situation.
+  See details of all [the various response codes the API can return](https://opencagedata.com/api#codes)
+
 * 20190219
 
-    when possible we now also return a `continent` key and value in the `components` portion of each result. [See blog post](https://blog.opencagedata.com/post/now-with-continents).
+  when possible we now also return a `continent` key and value in the `components` portion of each result. [See blog post](https://blog.opencagedata.com/post/now-with-continents).
    
 * 20190102
 
-   map view upgraded to leaflet 1.4.0 
+  map view upgraded to leaflet 1.4.0 
 
 * 20190101
 
