@@ -3,10 +3,16 @@
 
 # Changes to OpenCage Geocoder API. 
 
+* 20190425
+
+  We've changed the `licenses` portion of our response format to point to
+  [our attribution page](https://opencagedata.com/credits).
+  See [response format documentation](https://opencagedata.com/api#response)
+  
 * 20190423
 
   To aid in debugging we now return HTTP response code `401` in the case when either no API key is supplied in the request, or an invalid API key is supplied. Previously we had returned a `403` response in this situation.
-  See details of all [the various response codes the API can return](https://opencagedata.com/api#codes)
+  See details of all [the various response codes the API can return](https://opencagedata.com/api#codes).
 
 * 20190219
 
