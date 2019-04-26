@@ -3,10 +3,14 @@
 
 # Changes to OpenCage Geocoder API. 
 
+* 20190426
+
+  we have added a new annotation `roadinfo`. See [the annotation documentation](https://opencagedata.com/api#annotations). Blog post to follow shortly. 
+
 * 20190425
 
-  We've changed the `licenses` portion of our response format to point to
-  [our attribution page](https://opencagedata.com/credits).
+  We've changed the content of the `licenses` portion of our response format
+  to point to [our attribution page](https://opencagedata.com/credits).
   See [response format documentation](https://opencagedata.com/api#response)
   
 * 20190423
