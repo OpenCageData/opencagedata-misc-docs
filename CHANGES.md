@@ -3,9 +3,15 @@
 
 # Changes to OpenCage Geocoder API. 
 
+* 20190430
+ 
+  new optional parameter `roadinfo`, which tells the API to attempt to match 
+  roads and add information like speed limits. 
+  See [documentation](https://opencagedata.com/api#roadinfo), [blog post](https://blog.opencagedata.com/post/new-optional-parameter-roadinfo)
+
 * 20190426
 
-  we have added a new annotation `roadinfo`. See [the annotation documentation](https://opencagedata.com/api#annotations). Blog post to follow shortly. 
+  we have added a new annotation `roadinfo`. See [the annotation documentation](https://opencagedata.com/api#annotations). 
 
 * 20190425
 
