@@ -5,7 +5,7 @@ country codes than their ISO 3116-1 alpha-2 code. Usually these are cases of [de
 We aggregate many different geocoders ([see full list](https://opencagedata.com/credits)) and
 some may treat these territories as a different country than you expect.
 As a result, when forward geocoding for results in these territories we recommend you
-specify a comma seperated list for the `countrycode` parameter.
+specify a comma separated list for the `countrycode` parameter.
 
 As an example, when trying to restrict results to the island of Aruba, which is a
 a constituent country of the [Kingdom of the Netherlands](https://en.wikipedia.org/wiki/Kingdom_of_the_Netherlands), and has the ISO code `AW`, rather than specifying
