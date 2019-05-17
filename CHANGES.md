@@ -3,6 +3,10 @@
 
 # Changes to OpenCage Geocoder API. 
 
+* 20190517
+
+  we have added a new annotation `UN M49`. See [the annotation documentation](https://opencagedata.com/api#annotations). 
+
 * 20190430
  
   new optional parameter `roadinfo`, which tells the API to attempt to match 
