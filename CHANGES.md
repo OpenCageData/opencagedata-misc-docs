@@ -5,7 +5,7 @@
 
 * 20190517
 
-  we have added a new annotation `UN M49`. See [the annotation documentation](https://opencagedata.com/api#annotations). 
+  we have added a new annotation `UN_M49`. See [the annotation documentation](https://opencagedata.com/api#annotations). 
 
 * 20190430
  
