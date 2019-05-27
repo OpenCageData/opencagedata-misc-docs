@@ -33,7 +33,7 @@ Possible regions and their corresponding codes are:
  'SOUTHERN_ASIA' : '034' 
  'SOUTHERN_EUROPE' : '039' 
  'SOUTH_AMERICA' : '005' 
- 'SUB-SAHARAN AFRICA' : '202' 
+ 'SUB-SAHARAN_AFRICA' : '202' 
  'WESTERN_AFRICA' : '011' 
  'WESTERN_ASIA' : '145' 
  'WESTERN_EUROPE' : '155' 
