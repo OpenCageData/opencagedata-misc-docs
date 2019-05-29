@@ -57,6 +57,18 @@ Not Good: `77 Massachusetts Ave, Cambridge, MA 2142`
 
 Better: `77 Massachusetts Ave, Cambridge, MA 02142`
 
+**9. URL encode the query
+
+Once you've done everything else, please make sure you [URL encode](https://en.wikipedia.org/wiki/Percent-encoding) the query.
+Most programming langauges have a standard library for URL encoding (sometimes also known as "percent encoding". Please use it, don't try to invent your own.
+
+Not Good: `Köln`
+
+Better: `K%C3%B6ln`
+
+Not Good: `Thành phố Hà Nội`
+
+Better: `Th%C3%A0nh%20ph%E1%BB%91%20H%C3%A0%20N%E1%BB%99i`
 
 **Final point** - you might ask why you need to bother doing all this, surely we should catch common problems on our side? A fair question. We do try to catch obvious things of course. As you can imagine though, it's difficult for us know the pecularities of your data in your language and country. The more you can do to simplify, clean, and correct your queries, the better a chance we have to geocode correctly.
 
