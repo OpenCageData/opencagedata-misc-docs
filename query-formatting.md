@@ -22,7 +22,7 @@ Not Good: `Trierer Straße 15, 99423, Weimar`
 
 Better: `Trierer Straße 15, 99423, Weimar, Deutschland`
 
-**4. Please remove unneeded words and characters**
+**4. Please remove unneeded words and characters.**
 
 Not Good: `Trierer Straße 15\n99423 Weimar\n`
 
@@ -45,7 +45,7 @@ Not Good: `,,,NC,28092`
 
 Better: `Lincolnton,NC,28092`
 
-**7. Remove placeholders like XXXX for an unknown postcode digits**
+**7. Remove placeholders like XXXX for an unknown postcode digits.**
 
 Not Good: `Augartenstrabe 26-28, Wien, xxxx, Österreich`
 
@@ -57,7 +57,7 @@ Not Good: `77 Massachusetts Ave, Cambridge, MA 2142`
 
 Better: `77 Massachusetts Ave, Cambridge, MA 02142`
 
-**9. URL encode the query
+**9. URL encode the query.**
 
 Once you've done everything else, please make sure you [URL encode](https://en.wikipedia.org/wiki/Percent-encoding) the query.
 Most programming langauges have a standard library for URL encoding (sometimes also known as "percent encoding". Please use it, don't try to invent your own.
