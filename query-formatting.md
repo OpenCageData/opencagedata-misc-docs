@@ -16,13 +16,21 @@ Better: `Trierer Straße 15, 99423, Weimar, Deutschland`
 
 This is _the number one_ problem we see with forward geocoding. Leave out everything that is not part of the address.
 
-**3. Please DO include the country in the query, and also please use the optional `countrycode` parameter.**
+**3. We do not support "intersections"**
+
+Sometimes people want to send us intersections, this is not a format we support.
+
+Not Good: `Corner of 4th and Main St, Some Town`
+
+Better: `27 Main Street, Some Town, Country`
+
+**4. Please DO include the country in the query, and also please use the optional `countrycode` parameter.**
 
 Not Good: `Trierer Straße 15, 99423, Weimar`
 
 Better: `Trierer Straße 15, 99423, Weimar, Deutschland`
 
-**4. Please remove unneeded words and characters.**
+**5. Please remove unneeded words and characters.**
 
 Not Good: `Trierer Straße 15\n99423 Weimar\n`
 
@@ -30,13 +38,13 @@ Better: `Trierer Straße 15, 99423, Weimar, Deutschland`
 
 remove things like `c/o` (common abbreviation for 'care of'), or `PO BOX` that do not actually specify the location
 
-**5. Remove unneeded address information. An extension of the rule above. Each additional word increases the chance of confusing things, so if possible remove unhelpful address information like "Floor" or "Suite" or "Apt" that don't help with determining the location.**
+**6. Remove unneeded address information. An extension of the rule above. Each additional word increases the chance of confusing things, so if possible remove unhelpful address information like "Floor" or "Suite" or "Apt" that don't help with determining the location.**
 
 Not Good: `720 VETERANS BLVD; STE 100`
 
 Better: `720 VETERANS Boulevard`
 
-**6. If you are putting the address together from pieces please ensure that those pieces are meaningful. We often see people send us queries that include `undefined` or `NaN` or just empty fields.**
+**7. If you are putting the address together from pieces please ensure that those pieces are meaningful. We often see people send us queries that include `undefined` or `NaN` or just empty fields.**
 
 Not Good: `undefined,Lincolnton,NC,28092`
 
@@ -44,19 +52,19 @@ Not Good: `,,,NC,28092`
 
 Better: `Lincolnton,NC,28092`
 
-**7. Remove placeholders like XXXX for an unknown postcode digits.**
+**8. Remove placeholders like XXXX for an unknown postcode digits.**
 
 Not Good: `Augartenstrabe 26-28, Wien, xxxx, Österreich`
 
 Better: `Augartenstrabe 26-28, Wien, Österreich`
 
-**8. Treat postal codes as strings, not numbers. We often see queries with four digit postal codes when they should be five because the leading 0 has been removed somewhere along the way it was treated as a number rather than a string. If you know postal codes should be five digits add a check to ensure you are only sending us five digit strings.** 
+**9. Treat postal codes as strings, not numbers. We often see queries with four digit postal codes when they should be five because the leading 0 has been removed somewhere along the way it was treated as a number rather than a string. If you know postal codes should be five digits add a check to ensure you are only sending us five digit strings.** 
 
 Not Good: `77 Massachusetts Ave, Cambridge, MA 2142`
 
 Better: `77 Massachusetts Ave, Cambridge, MA 02142`
 
-**9. URL encode the query.**
+**10. URL encode the query.**
 
 Once you've done everything else, please make sure you [URL encode](https://en.wikipedia.org/wiki/Percent-encoding) the query.
 Most programming langauges have a standard library for URL encoding (sometimes also known as "percent encoding". Please use it, don't try to invent your own.
