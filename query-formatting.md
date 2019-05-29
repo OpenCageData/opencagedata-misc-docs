@@ -8,7 +8,7 @@ Not Good: `Trierer Straße 15 99423 Weimar Deutschland`
 
 Better: `Trierer Straße 15, 99423, Weimar, Deutschland`
 
-**2. Send us only places! This might sound obvious, but we often see people geocoding lists of addresses - including the name of the resident or complex company names. That just confuses things.**
+**2. Send us only places/addresses! This might sound obvious, but we often see people geocoding lists of addresses - including the name of the resident or complex company names. That just confuses things.**
 
 Not Good: `Herr Mustermann, Trierer Straße 15, 99423, Weimar, Deutschland`
 
@@ -35,7 +35,6 @@ remove things like `c/o` (common abbreviation for 'care of'), or `PO BOX` that d
 Not Good: `720 VETERANS BLVD; STE 100`
 
 Better: `720 VETERANS Boulevard`
-
 
 **6. If you are putting the address together from pieces please ensure that those pieces are meaningful. We often see people send us queries that include `undefined` or `NaN` or just empty fields.**
 
