@@ -14,7 +14,7 @@ If you are developing a new library or integration that uses the [OpenCage Geoco
 
 4. Similarly, please make sure you handle the case where the request is valid, but no results are returned. To create this situation in a test you can request the query `NOWHERE-INTERESTING` which will return a valid response with 0 results.
 
-5. Please use a unique user-agent string, so we can see how different libraries are being used and more easily identify the source of any problems. 
+5. Please use a unique user-agent string, so we can see how different libraries are being used and more easily identify the source of any problems. Ideally the user-agent string should include the version number of your library.
 
 6. Be aware that the API response varies slightly between free trial accounts and paid customer accounts. Paid accounts do not have the `rate` section of the response ([see docs](https://opencagedata.com/api#rate-limiting)) because paying customers have no hard limits. 
 
