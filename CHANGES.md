@@ -3,6 +3,10 @@
 
 # Changes to OpenCage Geocoder API. 
 
+* 20190708
+
+  if `language=native` has been specified we will attempt to return results in the local "official" language. See [blog post](https://blog.opencagedata.com/post/support-for-local-language) for details, links to documentation and caveats.
+
 * 20190517
 
   we have added a new annotation `UN_M49`. See [the annotation documentation](https://opencagedata.com/api#annotations), [blog post](opencagedata.github.io/_posts/)
