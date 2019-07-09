@@ -3,6 +3,10 @@
 
 # Changes to OpenCage Geocoder API. 
 
+* 20190709
+
+  due to some architectural refactoring to handle increased usage, we have turned off the `OSGB` annotation. We hope to have it back soon. 
+
 * 20190708
 
   if `language=native` has been specified we will attempt to return results in the local "official" language. See [blog post](https://blog.opencagedata.com/post/support-for-local-language) for details, links to documentation and caveats.
