@@ -1,6 +1,6 @@
 ## Opencage Data Ltd Data Processing Agreement 
 
-This document lays out the responsibilities of Opencage Data Ltd. (UK Company number 09485974), hereafter referred to as OpenCage, to its customers with regards to data protection in general and the European Union’s General Data Protection Regulation (GDPR) specifically.
+This document lays out the responsibilities of OpenCage GmbH (German company registration: Münster HR B 17983), hereafter referred to as OpenCage, to its customers with regards to data protection in general and the European Union’s General Data Protection Regulation (GDPR) specifically.
 
 ### 1. OpenCage as Data Processor, Definitions
 
