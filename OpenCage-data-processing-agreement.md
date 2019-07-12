@@ -1,4 +1,4 @@
-## Opencage Data Ltd Data Processing Agreement 
+## Opencage GmbH Data Processing Agreement 
 
 This document lays out the responsibilities of OpenCage GmbH (German company registration: Münster HR B 17983), hereafter referred to as OpenCage, to its customers with regards to data protection in general and the European Union’s General Data Protection Regulation (GDPR) specifically.
 
