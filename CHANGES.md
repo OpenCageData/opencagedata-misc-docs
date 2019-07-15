@@ -5,7 +5,7 @@
 
 * 20190715
 
-  the OpenCage geocoding API is now operated by OpenCage GmbH. No technical changes. [Blog post](https://blog.opencagedata.com/post/we-are-now-opencage-gmbh)
+  the OpenCage geocoding API is now operated by OpenCage GmbH. [Blog post](https://blog.opencagedata.com/post/we-are-now-opencage-gmbh). The value of the `thanks` field of the API response has changed slightly, as explained in the blog post.
 
 * 20190709
 
