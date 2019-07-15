@@ -3,6 +3,10 @@
 
 # Changes to OpenCage Geocoder API. 
 
+* 20190715
+
+  the OpenCage geocoding API is now operated by OpenCage GmbH. No technical changes. [Blog post](https://blog.opencagedata.com/post/we-are-now-opencage-gmbh)
+
 * 20190709
 
   due to some architectural refactoring to handle increased usage, we have turned off the `OSGB` annotation. We hope to have it back soon. 
