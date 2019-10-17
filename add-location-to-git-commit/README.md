@@ -14,7 +14,8 @@ Put it in your home directory as `whereami`
 
 3. Test that WhereAmI is working
 
-```$~/whereami 
+```
+$~/whereami 
 Latitude: 41.401499
 Longitude: 2.128773
 Accuracy (m): 65.000000
