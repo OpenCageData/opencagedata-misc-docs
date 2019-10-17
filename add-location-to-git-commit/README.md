@@ -2,7 +2,7 @@
 
 # add your location to your git commits
 
-If you're on Mac OSX you can use Rob Mather's [WhereAmI](https://github.com/robmathers/WhereAmI) utility to get the coordinates your computer thinks it is at.
+If you're on Mac OSX you can use Rob Mather's [WhereAmI](https://github.com/robmathers/WhereAmI) utility to get the location your computer thinks it is at.
 
 
 You will need
