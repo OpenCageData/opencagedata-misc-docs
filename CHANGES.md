@@ -3,6 +3,10 @@
 
 # Changes to OpenCage Geocoder API. 
 
+* 20191106
+
+  Previously requests with no query (`q` parameter) confusingly returned a `200`response code. Such requests now return `400` response code with the message `missing or bad query`.
+
 * 20191002
 
   When possible we now also match [terminated postcodes](https://blog.opencagedata.com/post/now-with-old-postcodes). 
