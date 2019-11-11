@@ -3,9 +3,13 @@
 
 # Changes to OpenCage Geocoder API. 
 
+* 20191111
+
+  there is now an API key for use in testing and SDK development that will always generate a response with status `429` (as there had previously been for `402` and `403`. You can find the key [the section of the API docs dealing with response codes](https://opencagedata.com/api#codes).
+
 * 20191106
 
-  Previously requests with no query (`q` parameter) confusingly returned a `200`response code. Such requests now return `400` response code with the message `missing or bad query`.
+  previously requests with no query (`q` parameter) confusingly returned a `200`response code. Such requests now return `400` response code with the message `missing or bad query`.
 
 * 20191002
 
