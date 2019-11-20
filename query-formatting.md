@@ -8,7 +8,9 @@ Not Good: `Trierer Straße 15 99423 Weimar Deutschland`
 
 Better: `Trierer Straße 15, 99423, Weimar, Deutschland`
 
-**2. Send us only places/addresses! This might sound obvious, but we often see people geocoding lists of addresses - including the name of the resident or complex company names. That just confuses things.**
+**2. Send us only places/addresses!**
+
+This might sound obvious, but we often see people geocoding lists of addresses - including the name of the resident or complex company names. That just confuses things.
 
 Not Good: `Herr Mustermann, Trierer Straße 15, 99423, Weimar, Deutschland`
 
@@ -38,33 +40,63 @@ Better: `Trierer Straße 15, 99423, Weimar, Deutschland`
 
 remove things like `c/o` (common abbreviation for 'care of'), or `PO BOX` that do not actually specify the location
 
-**6. Remove unneeded address information. An extension of the rule above. Each additional word increases the chance of confusing things, so if possible remove unhelpful address information like "Floor" or "Suite" or "Apt" that don't help with determining the location.**
+**6. Please remove unneeded address information.**
+
+An extension of the rule above. Each additional word increases the chance of confusing things, so if possible remove unhelpful address information like "Floor" or "Suite" or "Apt" that don't help with determining the location.
 
 Not Good: `720 VETERANS BLVD; STE 100`
 
 Better: `720 VETERANS Boulevard`
 
-**7. If you are putting the address together from pieces please ensure that those pieces are meaningful. We often see people send us queries that include `undefined` or `NaN` or just empty fields.**
+**7. Please send us only meaningful information.**
+
+We often see people send us queries that include `undefined` or `NaN` or just empty fields.
 
 Not Good: `undefined,Lincolnton,NC,28092`
 
 Not Good: `,,,NC,28092`
 
+Not Good: `none,none,none,NC,28092`
+
+Not Good: `-,-,-,NC,28092`
+
+Not Good: `NULL,NULL,NULL,NC,28092`
+
 Better: `Lincolnton,NC,28092`
 
-**8. Remove placeholders like XXXX for an unknown postcode digits.**
+**8. Please remove placeholders**
+
+There is no need to send us things like XXXX for unknown postcode digits.
 
 Not Good: `Augartenstrabe 26-28, Wien, xxxx, Österreich`
 
 Better: `Augartenstrabe 26-28, Wien, Österreich`
 
-**9. Treat postal codes as strings, not numbers. We often see queries with four digit postal codes when they should be five because the leading 0 has been removed somewhere along the way it was treated as a number rather than a string. If you know postal codes should be five digits add a check to ensure you are only sending us five digit strings.** 
+**9. Please treat postal codes as strings, not numbers.**
+
+We often see queries with four digit postal codes when they should be five because the leading 0 has been removed somewhere along the way it was treated as a number rather than a string. If you know postal codes should be five digits add a check to ensure you are only sending us five digit strings.
 
 Not Good: `77 Massachusetts Ave, Cambridge, MA 2142`
 
 Better: `77 Massachusetts Ave, Cambridge, MA 02142`
 
-**10. URL encode the query.**
+**10. Please DO NOT send us things like URLs or code.**
+
+Occasionally people intentionally or unintentionally try to "help us" by sending us software code or URLs in their queries. When we see this we will reject your request with response code `400` and message `missing or bad query`.
+
+Not Good: `javascript:alert();some address`
+
+Better: `some address`
+
+**11. Please DO NOT send us overly long queries.**
+
+If your query is too long or contains too many logical units we will reject your request (with response code `400` and message `query too long`).
+
+Not Good: `some very very very very very very very very very very very very long long long long long long long long long address`
+
+Better: `some normal address`
+
+**12. DO URL encode the query.**
 
 Once you've done everything else, please make sure you [URL encode](https://en.wikipedia.org/wiki/Percent-encoding) the query.
 Most programming langauges have a standard library for URL encoding (sometimes also known as "percent encoding". Please use it, don't try to invent your own.
@@ -77,6 +109,7 @@ Not Good: `Thành phố Hà Nội`
 
 Better: `Th%C3%A0nh%20ph%E1%BB%91%20H%C3%A0%20N%E1%BB%99i`
 
+
 **Final point** - you might ask why you need to bother doing all this, surely we should catch common problems on our side? A fair question. We do try to catch obvious things of course. As you can imagine though, it's difficult for us know the pecularities of your data in your language and country. The more you can do to simplify, clean, and correct your queries, the better a chance we have to geocode correctly.
 
-Happy geocoding!
+_Happy geocoding!_
