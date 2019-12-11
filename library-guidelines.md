@@ -8,10 +8,14 @@ If you are developing a new library or integration that uses the [OpenCage Geoco
 
 3. Ensure that your code [respects the various response codes](https://opencagedata.com/api#codes). Don't unintentionally build a denial of service tool. Specifically, if you see `402` or `403` response codes, you library should stop rather than just carry on. When there is a non-success response code please display the error message - the value of `message`, found in the `status` portion of the response - so your user can better understand why a request failed. 
 
-  * For testing you can use the following API keys:
+  * For testing [we provide various keys that always return a specific response](https://opencagedata.com/api#testingkeys):
+
+      * The key `6d0e711d72d74daeb2b0bfd2a5cdfdba` will always return a `200` response. [Sample request](https://api.opencagedata.com/geocode/v1/json?key=6d0e711d72d74daeb2b0bfd2a5cdfdba&q=52.51627%2C13.37769&pretty=1&no_annotations=1).
   
       * The key `4372eff77b8343cebfc843eb4da4ddc4` will always return a `402` response. [Sample request](https://api.opencagedata.com/geocode/v1/json?key=4372eff77b8343cebfc843eb4da4ddc4&q=52.51627%2C13.37769&pretty=1&no_annotations=1).
+      
       * The key `2e10e5e828262eb243ec0b54681d699a` will always return a `403` response. [Sample request](https://api.opencagedata.com/geocode/v1/json?key=2e10e5e828262eb243ec0b54681d699a&q=52.51627%2C13.37769&pretty=1&no_annotations=1).
+      
       * The key `d6d0f0065f4348a4bdfe4587ba02714b` will always return a `429` response. [Sample request](https://api.opencagedata.com/geocode/v1/json?key=d6d0f0065f4348a4bdfe4587ba02714b&q=52.51627%2C13.37769&pretty=1&no_annotations=1).
 
 4. Similarly, please make sure you handle the case where the request is valid, but no results are returned. To create this situation in a test you can request the query `NOWHERE-INTERESTING` which will return a valid response with 0 results.
