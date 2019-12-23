@@ -3,6 +3,9 @@
 
 # Changes to OpenCage Geocoder API. 
 
+* 20191223
+
+  The `OSM` annotation now also contains a `note_url` key and value to make adding a note to OpenStreetMap easier. [Blog post](https://blog.opencagedata.com/post/osm-annotation-notes-url). Learn more [about OpenStreetMap Notes](https://wiki.openstreetmap.org/wiki/Notes). 
 
 
 * 20191219
