@@ -3,6 +3,11 @@
 
 # Changes to OpenCage Geocoder API. 
 
+* 20200120
+
+  We now include a `_category` key and value in the `components`portion of
+  each result. [Documentation with link to a list of possible values](https://opencagedata.com/api#formatted). Blog post to come shortly.
+
 * 20191223
 
   The `OSM` annotation now also contains a `note_url` key and value to make adding a note to OpenStreetMap easier. [Blog post](https://blog.opencagedata.com/post/osm-annotation-notes-url). Learn more [about OpenStreetMap Notes](https://wiki.openstreetmap.org/wiki/Notes). 
