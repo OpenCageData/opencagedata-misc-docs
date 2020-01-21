@@ -6,7 +6,7 @@
 * 20200120
 
   We now include a `_category` key and value in the `components`portion of
-  each result. [Documentation with link to a list of possible values](https://opencagedata.com/api#formatted). Blog post to come shortly.
+  each result. [Documentation with link to a list of possible values](https://opencagedata.com/api#formatted). [Blog post](https://blog.opencagedata.com/post/categorization).
 
 * 20191223
 
