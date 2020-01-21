@@ -1,4 +1,6 @@
-List of possible `_category` values in the `components` portion of a geocoding result. Please see [the OpenCage Geocoder API docs](https://opencagedata.com/api#formatted) for details.
+List of possible `_category` values in the `components` portion of a geocoding result.
+
+Please see [the OpenCage Geocoder API docs](https://opencagedata.com/api#formatted) for details.
 
 ```
 agriculture
