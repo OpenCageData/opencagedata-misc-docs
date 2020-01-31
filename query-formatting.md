@@ -109,6 +109,19 @@ Not Good: `Thành phố Hà Nội`
 
 Better: `Th%C3%A0nh%20ph%E1%BB%91%20H%C3%A0%20N%E1%BB%99i`
 
+**13. Please DO NOT double URL encode the query.**
+
+Occasionally we've seen people encode the query themselves, and then the
+library they are using encodes the request again.
+
+Good: `K%C3%B6ln`
+
+Not Good: `K%25C3%25B6ln`
+
+Please make sure you understand what the libraries you are using do.
+If you run into problems a good first step is to print eh actual HTTP request
+URL you are sending to us. Is it what you expected it to be? 
+
 
 **Final point** - you might ask why you need to bother doing all this, surely we should catch common problems on our side? A fair question. We do try to catch obvious things of course. As you can imagine though, it's difficult for us know the pecularities of your data in your language and country. The more you can do to simplify, clean, and correct your queries, the better a chance we have to geocode correctly.
 
