@@ -119,7 +119,7 @@ Good: `K%C3%B6ln`
 Not Good: `K%25C3%25B6ln`
 
 Please make sure you understand what the libraries you are using do.
-If you run into problems a good first step is to print eh actual HTTP request
+If you run into problems a good first step is to print the actual HTTP request
 URL you are sending to us. Is it what you expected it to be? 
 
 
