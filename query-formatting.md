@@ -2,6 +2,10 @@ This document lists some steps you can take to format the forward geocoding quer
 
 Please see the [full API documentation](https://opencagedata.com/api) for information on reverse geocoding or on the various other parameters you can specify in your request. This document concerns only the query (`q` in the request)
 
+**0. Please DO make sure your query is long enough.**
+
+The query must be at least two characters long, we can not provide a meaniningful answer for a single char query.
+
 **1. Please DO separate the parts of the location with a comma.**
 
 Not Good: `Trierer Straße 15 99423 Weimar Deutschland`
