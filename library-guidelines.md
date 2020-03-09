@@ -10,13 +10,16 @@ If you are developing a new library or integration that uses the [OpenCage Geoco
 
   * For testing [we provide various keys that always return a specific response](https://opencagedata.com/api#testingkeys):
 
-      * The key `6d0e711d72d74daeb2b0bfd2a5cdfdba` will always return a `200` response. [Sample request](https://api.opencagedata.com/geocode/v1/json?key=6d0e711d72d74daeb2b0bfd2a5cdfdba&q=52.51627%2C13.37769&pretty=1&no_annotations=1).
+      * The key `6d0e711d72d74daeb2b0bfd2a5cdfdba` will always return a `200 - OK` response. [Sample request](https://api.opencagedata.com/geocode/v1/json?key=6d0e711d72d74daeb2b0bfd2a5cdfdba&q=52.51627%2C13.37769&pretty=1&no_annotations=1).
   
-      * The key `4372eff77b8343cebfc843eb4da4ddc4` will always return a `402` response. [Sample request](https://api.opencagedata.com/geocode/v1/json?key=4372eff77b8343cebfc843eb4da4ddc4&q=52.51627%2C13.37769&pretty=1&no_annotations=1).
+      * The key `4372eff77b8343cebfc843eb4da4ddc4` will always return a `402 - quota exceeded` response. [Sample request](https://api.opencagedata.com/geocode/v1/json?key=4372eff77b8343cebfc843eb4da4ddc4&q=52.51627%2C13.37769&pretty=1&no_annotations=1).
       
-      * The key `2e10e5e828262eb243ec0b54681d699a` will always return a `403` response. [Sample request](https://api.opencagedata.com/geocode/v1/json?key=2e10e5e828262eb243ec0b54681d699a&q=52.51627%2C13.37769&pretty=1&no_annotations=1).
-      
-      * The key `d6d0f0065f4348a4bdfe4587ba02714b` will always return a `429` response. [Sample request](https://api.opencagedata.com/geocode/v1/json?key=d6d0f0065f4348a4bdfe4587ba02714b&q=52.51627%2C13.37769&pretty=1&no_annotations=1).
+      * The key `2e10e5e828262eb243ec0b54681d699a` will always return a `403 - suspended` response. [Sample request](https://api.opencagedata.com/geocode/v1/json?key=2e10e5e828262eb243ec0b54681d699a&q=52.51627%2C13.37769&pretty=1&no_annotations=1).
+
+      * The key `6c79ee8e1ca44ad58ad1fc493ba9542f` will always return a `403 - IP address rejected` response. [Sample request](https://api.opencagedata.com/geocode/v1/json?key=6c79ee8e1ca44ad58ad1fc493ba9542f&q=52.51627%2C13.37769&pretty=1&no_annotations=1).
+
+
+      * The key `d6d0f0065f4348a4bdfe4587ba02714b` will always return a `429 - requesting too quickly` response. [Sample request](https://api.opencagedata.com/geocode/v1/json?key=d6d0f0065f4348a4bdfe4587ba02714b&q=52.51627%2C13.37769&pretty=1&no_annotations=1).
 
 4. Similarly, please make sure you handle the case where the request is valid, but no results are returned. To create this situation in a test you can request the query `NOWHERE-INTERESTING` which will return a valid response with 0 results.
 
