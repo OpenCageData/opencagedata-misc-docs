@@ -5,7 +5,7 @@
 
 * 20200309
 
-  Paying customers can now specify a white list of IP addresses that are able to query the geocoding API with a specific API key. Requests from all other addresses will receive a `403 - IP address rejected` response. [Blog post](https://blog.opencagedata.com/post/ip-restriction)
+  Paying customers can now specify an allowed list of IP addresses that are able to query the geocoding API with a specific API key. Requests from all other addresses will receive a `403 - IP address rejected` response. [Blog post](https://blog.opencagedata.com/post/ip-restriction)
 
 * 20200120
 
