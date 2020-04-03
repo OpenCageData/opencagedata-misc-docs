@@ -3,6 +3,10 @@
 
 # Changes to OpenCage Geocoder API. 
 
+* 20200403
+
+  Paying customers can now, on a per API key basis, specify a value for the `access-control-allow-origin` HTTP header returned by the API as a way to limit domains on which AJAX requests can be made. [Blog post with details](https://blog.opencagedata.com/post/setting-the-access-control-allow-origin-header).
+
 * 20200325
 
   Accounts can now be secured with two-factor authentication (2FA). [Blog post](https://blog.opencagedata.com/post/two-factor-authentication).
