@@ -3,6 +3,14 @@
 
 # Changes to OpenCage Geocoder API. 
 
+* 20200414
+
+  The OpenCage twitter account has changed to [@OpenCage](https://twitter.com/OpenCage). We have accordingly changed the value in the `stay_informed` portion of the API response. 
+
+* 20200413
+
+  We now support requests using the HTTP/2 protocol. [Blog post](https://blog.opencagedata.com/post/supporting-http2).
+
 * 20200403
 
   Paying customers can now, on a per API key basis, specify a value for the `access-control-allow-origin` HTTP header returned by the API as a way to limit domains on which AJAX requests can be made. [Blog post with details](https://blog.opencagedata.com/post/setting-the-access-control-allow-origin-header).
