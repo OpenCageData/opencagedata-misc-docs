@@ -3,6 +3,15 @@
 
 # Changes to OpenCage Geocoder API. 
 
+* 20200518
+
+  Deprecation notice: from 15 September 2020
+
+    * all API requests will need to be HTTPS TLS 1.2 or higher
+    * we will no longer support the `map` output format
+
+  Please see [our blog post detailing these changes](https://blog.opencagedata.com/post/deprecating-tls-1point0-and-1point1).
+
 * 20200414
 
   The OpenCage twitter account has changed to [@OpenCage](https://twitter.com/OpenCage). We have accordingly changed the value in the `stay_informed` portion of the API response. 
