@@ -3,6 +3,10 @@
 
 # Changes to OpenCage Geocoder API. 
 
+* 20200709
+
+  In addition to our existing subscription pricing plans, we now also support [one-time purchases](https://blog.opencagedata.com/post/one-time-purchases)
+  
 * 20200518
 
   Deprecation notice: from 15 September 2020
