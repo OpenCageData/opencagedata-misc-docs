@@ -2,7 +2,7 @@ If you are developing a new library or integration that uses the [OpenCage Geoco
 
 0. This may seem obvious, but before you start please take 10-15 minutes and [read the API docs](https://opencagedata.com/api). It's only one page. 
 
-1. OK, ready? First, check [the existing list of libraries](https://opencagedata.com/code) and make sure what you are planning on writing doesn't already exist. Perhaps you can extend one of the existing projects rather than restarting from scratch?
+1. OK, ready? First, check [the existing list of libraries](https://opencagedata.com/sdks) and make sure what you are planning on writing doesn't already exist. Perhaps you can extend one of the existing projects rather than restarting from scratch?
 
 2. Your library should NOT make a request unless you have a valid API key. Please do not store a key in the library, we recommend setting it via an environment variable.
 
@@ -49,7 +49,7 @@ If you are developing a new library or integration that uses the [OpenCage Geoco
 
 15. Please set up an automated build from a service like [TravisCI](https://travis-ci.org) and add a build status badge on the README
 
-16. Finally, don't forget to let us know what you've built so we can [add it to the list](https://opencagedata.com/code) and feature it on [our blog](https://blog.opencagedata.com) (of course giving you full credit for your work)! 
+16. Finally, don't forget to let us know what you've built so we can [add it to the list](https://opencagedata.com/sdks) and feature it on [our blog](https://blog.opencagedata.com) (of course giving you full credit for your work)! 
 
 If you have any questions, please [just ask](https://opencagedata.com/contact), we are here to help.
 
