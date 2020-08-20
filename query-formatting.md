@@ -16,7 +16,7 @@ Better: `Trierer Straße 15, 99423, Weimar, Deutschland`
 
 This might sound obvious, but we often see people geocoding lists of addresses - including the name of the resident or complex company names. That just confuses things.
 
-Not Good: `Herr Mustermann, Trierer Straße 15, 99423, Weimar, Deutschland`
+Not Good: `Mr. Jack London, Trierer Straße 15, 99423, Weimar, Deutschland`
 
 Better: `Trierer Straße 15, 99423, Weimar, Deutschland`
 
