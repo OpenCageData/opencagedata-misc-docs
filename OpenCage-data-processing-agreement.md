@@ -73,7 +73,7 @@ This document lays out the responsibilities of OpenCage GmbH (German company reg
 
 ### 9. Legal Effect
 
-1. This agreement comes into effect from the 25th of May 2018 for all existing customers, or from the time of purchase of an OpenCage subscription. It expires with cessation of the Customer's OpenCage subscription. 
+1. This agreement comes into effect from the 25th of May 2018 for all existing customers, or from the time of purchase of an OpenCage service (subscription or one-time purchase) It expires with cessation of the Customer's OpenCage subscription or the utilization of all requests from a one-time purchase.
 
 
 
