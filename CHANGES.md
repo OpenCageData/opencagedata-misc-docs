@@ -3,9 +3,15 @@
 
 # Changes to OpenCage Geocoder API. 
 
+* 20200831
+
+  A reminder that on 15 Sept 2020 we will turn off support for HTTPS API requests using TLS 1.0 or 1.1. We have set up a server for testing for those 
+  who have not yet made the transition ([details on our blog](https://blog.opencagedata.com/post/url-for-testing-tls-1point2)). Please make the switch 
+  to TLS 1.2+ as quickly as possible to ensure your service continues to work after the 15th of September.
+  
 * 20200709
 
-  In addition to our existing subscription pricing plans, we now also support [one-time purchases](https://blog.opencagedata.com/post/one-time-purchases)
+  In addition to our existing subscription pricing plans, we now also support [one-time purchases](https://blog.opencagedata.com/post/one-time-purchases).
   
 * 20200518
 
