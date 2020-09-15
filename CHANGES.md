@@ -3,6 +3,10 @@
 
 # Changes to OpenCage Geocoder API. 
 
+* 20200915
+  * HTTPS requests with TLS < 1.2 are no longer supported. Invalid requests now return a `426` response. [Blog post with details](https://blog.opencagedata.com/post/deprecation-of-unsecure-tls)
+  * `map` output format no longer supported
+  
 * 20200831
 
   A reminder that on 15 Sept 2020 we will turn off support for HTTPS API requests using TLS 1.0 or 1.1. We have set up a server for testing for those 
