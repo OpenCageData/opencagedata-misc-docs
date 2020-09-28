@@ -3,7 +3,14 @@
 
 # Changes to OpenCage Geocoder API. 
 
+* 20200928
+
+  One of the primary geocoders we aggregate behind our API is Nominatim. This morning (European time) we made the switch to a newer version - Nominatim 3.5 - 
+  which introduces significant changes to administrative hierarchies in some countries. While we have extensive tests it is difficult to foresee every possible
+  permutation. Please let us know if you are seeing anything unexpected in the `formatted` or `components`sections of results. 
+
 * 20200915
+
   * HTTPS requests with TLS < 1.2 are no longer supported. Invalid requests now return a `426` response. [Blog post with details](https://blog.opencagedata.com/post/deprecation-of-unsecure-tls)
   * `map` output format no longer supported
   
