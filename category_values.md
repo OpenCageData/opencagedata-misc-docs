@@ -8,7 +8,7 @@ building
 commerce
 construction
 education
-ficticious
+fictitious
 financial
 government
 health
