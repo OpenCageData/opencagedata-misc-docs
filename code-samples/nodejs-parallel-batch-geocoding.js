@@ -1,23 +1,24 @@
 /**
- * This example deonstrate how to batch geocode addreses using Oopencage Data Geocoder.
+ * This example deonstrates how to batch geocode addreses using Oopencage Data Geocoder.
  *
  * Create a file file_to_geocode.csv
  * id,address
  * 1,"Madrid,Spain"
  * 2,"Milan,Italy"
  * 3,"Berlin,Germany"
+ * ...
  *
- *
- * The batch file runs asynchonously with parallel workers, then it is important to have unique id so the results can be matched with it
+ * The batch file runs asynchonously with parallel workers, then it is important to have unique id so the results can be matched with.
  *
  * create a .env file with your API KEY
  * OPENCAGE_API_KEY=<YOUR API KEY>
  *
- * npm install opencage-api-client async csv-parse csv-stringify
+ * npm install opencage-api-client async csv-parser csv-stringify
  *
  * node nodejs-parallel-batch-geocoding.js
  *
  * Adjust CONCURRENCY value to increase the throughput. Check the <https://caolan.github.io/async/v3/docs.html#queue>documentation</a>
+ *
  */
 
 // NodeJS builtin
@@ -25,11 +26,9 @@ const fs = require('fs');
 // Dependencies
 const { geocode } = require('opencage-api-client');
 const async = require('async');
-const parse = require('csv-parse');
+const csv = require('csv-parser');
 const stringify = require('csv-stringify');
 // --------------------------------------
-const CSV_INPUT_ID = 0;
-const CSV_INPUT_ADDRESS = 1;
 //
 const CONCURRENCY = 2;
 //
@@ -82,6 +81,7 @@ const ouputResult = async (data) => {
     });
   });
 };
+
 const geocodeAddress = async ({ id, address }) => {
   console.log(`geocoding "${address}"`);
   try {
@@ -130,32 +130,28 @@ const geocodeAddress = async ({ id, address }) => {
   }
 };
 
-const processFile = async (queue) => {
-  const parser = fs.createReadStream(INFILE).pipe(
-    parse({
-      skip_lines_with_error: true,
-      skip_empty_lines: true,
-      from_line: 2, // skips header with 2, without header use 1
+const processFileStream = async (queue) => {
+  fs.createReadStream(INFILE)
+    .pipe(csv(['id', 'address']))
+    .on('data', (data) => {
+      // console.log(`Line from file: ${JSON.stringify(data)}`);
+      console.log(`Line from file: ${data.id}, ${data.address}`);
+      queue.push({
+        id: data.id,
+        address: data.address,
+      });
     })
-  );
-
-  // for await (const record of parser) {
-  for await (const record of parser) {
-    console.log('record', record);
-
-    // Work with each record
-    queue.push({
-      id: record[CSV_INPUT_ID],
-      address: record[CSV_INPUT_ADDRESS],
+    .on('end', () => {
+      console.log('Csv file fully parsed');
     });
-  }
 };
 
 const run = async () => {
   // create a queue object with concurrency
   const queue = async.queue(geocodeAddress, CONCURRENCY);
 
-  await processFile(queue);
+  // await processFileSync(queue);
+  await processFileStream(queue);
 };
 
 console.log('Running Batch Geocoding');
