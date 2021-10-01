@@ -3,6 +3,10 @@
 
 # Changes to OpenCage Geocoder API. 
 
+* 20211001
+
+  [Sign up is now open](https://opencagedata.com/geosearch) for early access to our soon to be launched geosearch service. [Detailed blog post](https://blog.opencagedata.com/post/geosearch-early-access-list-now-open). 
+
 * 20210406
 
   Reverse geocoding requests that match roads with no names will now set `"road": "unnamed road",` in the `components` sections of results. [Blog post with details](https://blog.opencagedata.com/post/where-the-streets-have-no-name).
