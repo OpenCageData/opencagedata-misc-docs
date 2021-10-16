@@ -3,6 +3,10 @@
 
 # Changes to OpenCage Geocoder API. 
 
+* 20211016
+
+  Legal headquarters of OpenCage GmbH has now moved to Hannover, Niedersachsen, Germany. [Detailed blog post](https://blog.opencagedata.com/post/we-have-moved).
+
 * 20211001
 
   [Sign up is now open](https://opencagedata.com/geosearch) for early access to our soon to be launched geosearch service. [Detailed blog post](https://blog.opencagedata.com/post/geosearch-early-access-list-now-open). 
