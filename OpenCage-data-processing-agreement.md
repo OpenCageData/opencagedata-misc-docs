@@ -14,7 +14,7 @@ This document lays out the responsibilities of OpenCage GmbH (German company reg
 
   * “Data Protection Laws” means EU Directive 95/46/EC, as transposed into domestic legislation of each Member State and as amended, replaced or superseded from time to time, including by the GDPR and laws implementing or supplementing the GDPR and, to the extent applicable, the data protection and privacy laws of the United Kingdom.
   
-  * "Services" means the OpenCage geocoding API (application program interface) and the professional services provided by OpenCage.
+  * "Services" means the OpenCage geocoding API (application program interface), OpenCage geosearch, and the professional services provided by OpenCage.
   
   * “Sub-processor” means any Data Processor engaged by OpenCage.
   
