@@ -3,6 +3,10 @@
 
 # Changes to OpenCage Geocoder API. 
 
+* 20220321
+
+  One of the primary geocoders we aggregate behind our API is Nominatim. Yesterday we made the switch to a newer version - Nominatim 4.0 - which introduces significant changes. While we have extensive tests it is difficult to foresee every possible permutation. Please let us know if you are seeing anything unexpected.
+  
 * 20220215 
 
   [OpenCage Geosearch](https://opencagedata.com/geosearch) is now available. [Detailed blog post](https://blog.opencagedata.com/post/introducing-opencage-geosearch) 
