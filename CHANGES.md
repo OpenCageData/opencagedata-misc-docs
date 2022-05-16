@@ -3,6 +3,10 @@
 
 # Changes to OpenCage Geocoder API. 
 
+* 20220516
+
+  If possible we now add a key `ISO_3166-2`to the `components` portion of each result. The value of the field is a list (not a single value) of [ISO 3166-2 codes](https://en.wikipedia.org/wiki/ISO_3166-2) for that location. Detailed blog post with examples to follow shortly. 
+
 * 20220321
 
   One of the primary geocoders we aggregate behind our API is Nominatim. Yesterday we made the switch to a newer version - Nominatim 4.0 - which introduces significant changes. While we have extensive tests it is difficult to foresee every possible permutation. Please let us know if you are seeing anything unexpected.
