@@ -5,7 +5,7 @@
 
 * 20220516
 
-  If possible we now add a key `ISO_3166-2`to the `components` portion of each result. The value of the field is a list (not a single value) of [ISO 3166-2 codes](https://en.wikipedia.org/wiki/ISO_3166-2) for that location. Detailed blog post with examples to follow shortly. 
+  If possible we now add a key `ISO_3166-2`to the `components` portion of each result. The value of the field is a list (not a single value) of [ISO 3166-2 codes](https://en.wikipedia.org/wiki/ISO_3166-2) for that location. [Detailed blog post](https://blog.opencagedata.com/post/now-with-iso-3166-2-codes) with many examples, particularly of unexpected edge cases.
 
 * 20220321
 
