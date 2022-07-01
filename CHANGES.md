@@ -3,6 +3,10 @@
 
 # Changes to OpenCage Geocoder API. 
 
+* 20220701
+
+  we have added a new annotation `H3`. See [the annotation documentation](https://opencagedata.com/api#annotations), [blog post](https://blog.opencagedata.com/post/new-annotation-h3).
+
 * 20220516
 
   If possible we now add a key `ISO_3166-2`to the `components` portion of each result. The value of the field is a list (not a single value) of [ISO 3166-2 codes](https://en.wikipedia.org/wiki/ISO_3166-2) for that location. [Detailed blog post](https://blog.opencagedata.com/post/now-with-iso-3166-2-codes) with many examples, particularly of unexpected edge cases.
