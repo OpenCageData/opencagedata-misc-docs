@@ -122,7 +122,7 @@
 
 * 20190517
 
-  we have added a new annotation `UN_M49`. See [the annotation documentation](https://opencagedata.com/api#annotations), [blog post](opencagedata.github.io/_posts/)
+  we have added a new annotation `UN_M49`. See [the annotation documentation](https://opencagedata.com/api#annotations), [blog post](https://blog.opencagedata.com/post/new-annotation-un-m49-statistical-codes)
 
 * 20190430
  
