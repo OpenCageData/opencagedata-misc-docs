@@ -4,6 +4,7 @@
 # Changes to OpenCage Geocoder API. 
 
 * 20221219
+
   In January 2023 (target date 10 Jan 2023) we will adapt the `stay_informed` portion of our API response to include a reference to our Mastodon account. [Details on the blog](https://blog.opencagedata.com/post/moving-beyond-twitter).
 
 * 20220701
