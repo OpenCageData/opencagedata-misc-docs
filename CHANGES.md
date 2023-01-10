@@ -5,7 +5,7 @@
 
 * 20230110
 
-  * The `stay_informed` portion of our API response to include a reference to [our Mastodon account](https://en.osm.town/@opencage). 
+  * The `stay_informed` portion of our API response now includes a reference to [our Mastodon account](https://en.osm.town/@opencage). 
   * new optional parameter `address_only`. [See documentation](https://opencagedata.com/api#address_only-param).
 
   Blog post explainiong these changes to follow later today. 
