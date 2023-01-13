@@ -5,7 +5,7 @@
 
 * 20230113
 
-  We have added a new annotation `NUTS`. See [the annotation documentation](https://opencagedata.com/api#annotations), detailed blog post to follow shortly. 
+  We have added a new annotation `NUTS`. See [the annotation documentation](https://opencagedata.com/api#annotations), [blog post](https://blog.opencagedata.com/post/now-with-nuts). 
 
 * 20230110
 
