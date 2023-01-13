@@ -3,6 +3,10 @@
 
 # Changes to OpenCage Geocoder API. 
 
+* 20230113
+
+  We have added a new annotation `NUTS`. See [the annotation documentation](https://opencagedata.com/api#annotations), detailed blog post to follow shortly. 
+
 * 20230110
 
   * The `stay_informed` portion of our API response now includes a reference to [our Mastodon account](https://en.osm.town/@opencage). 
