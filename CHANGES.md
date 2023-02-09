@@ -3,6 +3,10 @@
 
 # Changes to OpenCage Geocoder API. 
 
+* 20230209
+
+  From 1 March 2023 the price and size of some of our geocoding subscription plans will change for new customers. Existing customers that are impacted by these changes will be contacted by email. [Blog post explaining the details](https://blog.opencagedata.com/post/pricing-changes-coming). 
+
 * 20230113
 
   We have added a new annotation `NUTS`. See [the annotation documentation](https://opencagedata.com/api#annotations), [blog post](https://blog.opencagedata.com/post/now-with-nuts). 
