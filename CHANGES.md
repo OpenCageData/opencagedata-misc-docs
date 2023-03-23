@@ -3,6 +3,10 @@
 
 # Changes to OpenCage Geocoder API. 
 
+* 20230323
+
+  We now support searching for UN/LOCODE codes, and, for paying customers, provide UN/LOCODE information as a new annotation. See [the detailed documentation (includign caveats)](https://opencagedata.com/api#unlocode), [blog post](https://blog.opencagedata.com/post/search-for-unlocodes). 
+
 * 20230209
 
   From 1 March 2023 the price and size of some of our geocoding subscription plans will change for new customers. Existing customers that are impacted by these changes will be contacted by email. [Blog post explaining the details](https://blog.opencagedata.com/post/pricing-changes-coming). 
