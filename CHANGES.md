@@ -3,6 +3,10 @@
 
 # Changes to OpenCage Geocoder API. 
 
+* 20230724
+  
+   From 1 August 2023 we will adapt the `stay_informed` portion of our API response to no longer include a reference to our Twitter account. [Details on the blog](https://blog.opencagedata.com/post/dropping-twitter).
+  
 * 20230323
 
   We now support searching for UN/LOCODE codes, and, for paying customers, provide UN/LOCODE information as a new annotation. See [the detailed documentation (includign caveats)](https://opencagedata.com/api#unlocode), [blog post](https://blog.opencagedata.com/post/search-for-unlocodes). 
