@@ -3,6 +3,10 @@
 
 # Changes to OpenCage Geocoder API. 
 
+* 20230801
+
+  As recently announced the `stay_informed` section of our API response has now changed, we no longer provide a reference to Twitter.
+  
 * 20230724
   
    From 1 August 2023 we will adapt the `stay_informed` portion of our API response to no longer include a reference to our Twitter account. [Details on the blog](https://blog.opencagedata.com/post/dropping-twitter).
