@@ -34,5 +34,6 @@ Here is a full list:
 | Norway (`no`)         | `no,bv,sj`                                        |
 | United Kingdom (`gb`) | `gb,ai,bm,fk,gi,gg,gs,im,io,je,ky,ms,pn,sh,tc,vg` |
 | United States (`us`)  | `us,as,gu,pr,um,vi`                               |
+| Philippines (`ph`)    | `ph,mnl`                                           |
 
 _**Please note,** this is purely technical advice to help with geocoding and not intended as political commentary on which territories are or are not, or should or should not, be independent countries_.
