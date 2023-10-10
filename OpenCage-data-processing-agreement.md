@@ -26,7 +26,7 @@ This document lays out the responsibilities of OpenCage GmbH (German company reg
 
 2. The inputs to the OpenCage Service provided by the Data Controller are geographic coordinates or placenames/addresses. No other data should be sent to OpenCage. The Data Controller bears sole responsibility for transmission of only geographic data.
 
-3. OpenCage's API makes available various privacy options, most notably the use of an optional `no_record=1` parameter. The Data Processor is advised to make full use of these options, and bears sole responsibility for failure to do so.
+3. OpenCage's API makes available various privacy options, most notably the use of an optional `no_record=1` parameter. The Data Controller is advised to make full use of these options, and bears sole responsibility for failure to do so.
 
 4. OpenCage lays out a full and accurate description of its data protection practices on its website at 
 [https://opencagedata.com/gdpr](https://opencagedata.com/gdpr). This description is updated from time to time as and when practices change. 
