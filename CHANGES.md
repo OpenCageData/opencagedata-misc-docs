@@ -3,6 +3,9 @@
 
 # Changes to OpenCage Geocoder API. 
 
+* 20240129
+  Reverse geocoding results now include the field `distance_from_q` which is the distance (in meters) from the coordinates in the `q` (query) parameter and the result. [Details and example on the blog](https://blog.opencagedata.com/post/launch-week-distance_from_q-in-reverse-geocoding-results)
+  
 * 20230801
 
   As recently announced the `stay_informed` section of our API response has now changed, we no longer provide a reference to Twitter.
