@@ -1,7 +1,7 @@
   * Full [API docs](https://opencagedata.com/api).
   * We recommend you also [follow us on Mastodon](https://en.osm.town/@opencage) and/or [read our blog](https://blog.opencagedata.com/) where all changes are announced. 
 
-# Changes to OpenCage Geocoder API. 
+# Changes to OpenCage Geocoding API. 
 
 * 20240129
   
