@@ -3,6 +3,10 @@
 
 # Changes to OpenCage Geocoding API. 
 
+* 20240202
+
+  We have improved and upgraded (v3.1.2) our OpenAPI specification. [Blog post](https://blog.opencagedata.com/post/launch-week-openapi-update)
+  
 * 20240201
   
   We now attempt to set the field `_normalized_city` in the `components` section of geocoding results. [Blog post](https://blog.opencagedata.com/post/launch-week-new-component-field-_normalized_city)
