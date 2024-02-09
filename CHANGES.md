@@ -3,21 +3,24 @@
 
 # Changes to OpenCage Geocoding API. 
 
+* 20240209
+
+  We now additionally attempt to set the fields `maxheight`, `maxweight`, and `maxwidth` in the `roadinfo` annotation if `roadinfo=1` was set in the API request. [Relevent section of the docs](https://opencagedata.com/api#roadinfoann), [Blog post](https://blog.opencagedata.com/post/additional-roadinfo-fields).
+    
 * 20240202
 
-  We have improved and upgraded (v3.1.2) our OpenAPI specification. [Blog post](https://blog.opencagedata.com/post/launch-week-openapi-update)
+  We have improved and upgraded (v3.1.2) our OpenAPI specification. [Blog post](https://blog.opencagedata.com/post/launch-week-openapi-update).
   
 * 20240201
   
-  We now attempt to set the field `_normalized_city` in the `components` section of geocoding results. [Blog post](https://blog.opencagedata.com/post/launch-week-new-component-field-_normalized_city)
-
+  We now attempt to set the field `_normalized_city` in the `components` section of geocoding results. [Blog post](https://blog.opencagedata.com/post/launch-week-new-component-field-_normalized_city).
 * 20240130
 
-  We now also provide the `NUTS` annotation for EFTA countries (CH, IS, LI, NO). [Blog post](https://blog.opencagedata.com/post/launch-week-increased-nuts-coverage)
+  We now also provide the `NUTS` annotation for EFTA countries (CH, IS, LI, NO). [Blog post](https://blog.opencagedata.com/post/launch-week-increased-nuts-coverage).
 
 * 20240129
   
-  Reverse geocoding results now include the field `distance_from_q` which is the distance (in meters) from the coordinates in the `q` (query) parameter and the result. [Details and example on the blog](https://blog.opencagedata.com/post/launch-week-distance_from_q-in-reverse-geocoding-results)
+  Reverse geocoding results now include the field `distance_from_q` which is the distance (in meters) from the coordinates in the `q` (query) parameter and the result. [Details and example on the blog](https://blog.opencagedata.com/post/launch-week-distance_from_q-in-reverse-geocoding-results).
   
 * 20230801
 
