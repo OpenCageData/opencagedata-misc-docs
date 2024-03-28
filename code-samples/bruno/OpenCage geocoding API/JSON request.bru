@@ -1,0 +1,32 @@
+meta {
+  name: JSON request
+  type: http
+  seq: 2
+}
+
+get {
+  url: https://api.opencagedata.com/geocode/v1/json?q=52.3877830, 9.7334394&key=YOUR-API-KEY
+  body: none
+  auth: none
+}
+
+query {
+  q: 52.3877830, 9.7334394
+  key: YOUR-API-KEY
+}
+
+docs {
+  [OpenCage geocoding API documentation including Quick Start](https://opencagedata.com/api)
+  
+  [Authentication](https://opencagedata.com/api#authentication)
+  
+  [Optional parameters](https://opencagedata.com/api#optional-params)
+  
+  [Rate limiting details](https://opencagedata.com/api#rate-limiting)
+  
+  [Tutorials for 30+ programming languages](https://opencagedata.com/tutorials)
+  
+  Happy Geocoding!
+  
+  
+}
