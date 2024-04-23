@@ -3,6 +3,10 @@
 
 # Changes to OpenCage Geocoding API. 
 
+* 20240423
+  
+  One of the primary geocoders we aggregate behind our API is Nominatim. We made the switch to a newer version - Nominatim 4.4.0 - which introduces significant changes. While we have extensive tests it is difficult to foresee every possible permutation. Please let us know if you are seeing anything unexpected. [Blog post](https://blog.opencagedata.com/post/moving-to-nominatim-440).
+
 * 20240209
 
   We now additionally attempt to set the fields `maxheight`, `maxweight`, and `maxwidth` in the `roadinfo` annotation if `roadinfo=1` was set in the API request. [Relevent section of the docs](https://opencagedata.com/api#roadinfoann), [Blog post](https://blog.opencagedata.com/post/additional-roadinfo-fields).
