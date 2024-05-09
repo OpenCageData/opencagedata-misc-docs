@@ -3,6 +3,10 @@
 
 # Changes to OpenCage Geocoding API. 
 
+* 20240509
+
+  We now also provide the `NUTS` annotation for EU candidate countries (AL, ME, MK, RS, TR). [Blog post](https://blog.opencagedata.com/post/nuts-eu-candidate-countries).
+
 * 20240423
   
   One of the primary geocoders we aggregate behind our API is Nominatim. We made the switch to a newer version - Nominatim 4.4.0 - which introduces significant changes. While we have extensive tests it is difficult to foresee every possible permutation. Please let us know if you are seeing anything unexpected. [Blog post](https://blog.opencagedata.com/post/moving-to-nominatim-440).
@@ -18,6 +22,7 @@
 * 20240201
   
   We now attempt to set the field `_normalized_city` in the `components` section of geocoding results. [Blog post](https://blog.opencagedata.com/post/launch-week-new-component-field-_normalized_city).
+  
 * 20240130
 
   We now also provide the `NUTS` annotation for EFTA countries (CH, IS, LI, NO). [Blog post](https://blog.opencagedata.com/post/launch-week-increased-nuts-coverage).
