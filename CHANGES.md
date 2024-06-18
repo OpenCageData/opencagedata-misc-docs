@@ -3,6 +3,10 @@
 
 # Changes to OpenCage Geocoding API. 
 
+* 20240618
+
+  Geocoding results in France now also contain the component `local_authority`, the value of which is the name of that location's _EPCI_. [Blog post](https://blog.opencagedata.com/post/french-geocodingresults-with-epci).
+  
 * 20240509
 
   We now also provide the `NUTS` annotation for EU candidate countries (AL, ME, MK, RS, TR). [Blog post](https://blog.opencagedata.com/post/nuts-eu-candidate-countries).
