@@ -3,6 +3,10 @@
 
 # Changes to OpenCage Geocoding API. 
 
+* 20240619
+
+  We now additionally attempt to set the field `toll_details` in the `roadinfo` annotation if `roadinfo=1` was set in the API request. [Relevent section of the docs](https://opencagedata.com/api#roadinfoann), [Blog post](https://blog.opencagedata.com/post/roadinfo-now-with-toll-details).
+
 * 20240618
 
   Geocoding results in France now also contain the component `local_authority`, the value of which is the name of that location's _EPCI_. [Blog post](https://blog.opencagedata.com/post/french-geocodingresults-with-epci).
