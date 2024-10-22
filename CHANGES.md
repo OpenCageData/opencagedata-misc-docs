@@ -3,6 +3,10 @@
 
 # Changes to OpenCage Geocoding API. 
 
+* 20241022
+
+  We now set the field `shipping_forecast_sea_area` in the `components` portion of relevant geocoding results. [Blog post](https://blog.opencagedata.com/post/and-now-the-shipping-forecast).
+    
 * 20240619
 
   We now additionally attempt to set the field `toll_details` in the `roadinfo` annotation if `roadinfo=1` was set in the API request. [Relevent section of the docs](https://opencagedata.com/api#roadinfoann), [Blog post](https://blog.opencagedata.com/post/roadinfo-now-with-toll-details).
