@@ -2,6 +2,8 @@
 This document lists some common cases of regions of the world with different
 country codes than their ISO 3116-1 alpha-2 code. Usually these are cases of [dependent territories](https://en.wikipedia.org/wiki/Dependent_territory) or disputed territories.
 
+You may also wish to read our [guide to ISO 3166-1 codes / country codes](https://opencagedata.com/guides/how-to-determine-the-iso-codes-for-a-location)
+
 We aggregate many different geocoders ([see full list](https://opencagedata.com/credits)) and
 some may treat these territories as a different country than you expect.
 As a result, when forward geocoding for results in these territories we recommend you
