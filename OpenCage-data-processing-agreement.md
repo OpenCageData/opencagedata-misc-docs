@@ -1,6 +1,6 @@
 ## Opencage GmbH Data Processing Agreement 
 
-This document lays out the responsibilities of OpenCage GmbH (German company registration: Hannover HRB 222547), hereafter referred to as OpenCage, to its customers with regards to data protection in general and the European Union’s General Data Protection Regulation (GDPR) specifically.
+This document lays out the responsibilities of OpenCage GmbH (German company registration: Berlin (Charlottenburg) HRB 272249), hereafter referred to as OpenCage, to its customers with regards to data protection in general and the European Union’s General Data Protection Regulation (GDPR) specifically.
 
 ### 1. OpenCage as Data Processor, Definitions
 
