@@ -3,6 +3,10 @@
 
 # Changes to OpenCage Geocoding API. 
 
+* 20250611
+
+  We now also provide the `DIGIPIN` annotation for locations in India (as defined by India Post's bounding box). [Documentation](https://opencagedata.com/api#digipin). Blog post to follow shortly.
+
 * 20241022
 
   We now set the field `shipping_forecast_sea_area` in the `components` portion of relevant geocoding results. [Blog post](https://blog.opencagedata.com/post/and-now-the-shipping-forecast).
