@@ -5,7 +5,7 @@
 
 * 20250611
 
-  We now also provide the `DIGIPIN` annotation for locations in India (as defined by India Post's bounding box). [Documentation](https://opencagedata.com/api#digipin). Blog post to follow shortly.
+  We now also provide the `DIGIPIN` annotation for locations in India (as defined by India Post's bounding box). [Documentation](https://opencagedata.com/api#digipin). [Blog post](https://blog.opencagedata.com/post/digipin-support).
 
 * 20241022
 
