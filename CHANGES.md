@@ -3,6 +3,10 @@
 
 # Changes to OpenCage Geocoding API. 
 
+* 20250903
+
+  `NUTS` annotation data has now been updated to the 2024 dataset. [Blog post](https://blog.opencagedata.com/post/nuts-2024-data).
+  
 * 20250611
 
   We now also provide the `DIGIPIN` annotation for locations in India (as defined by India Post's bounding box). [Documentation](https://opencagedata.com/api#digipin). [Blog post](https://blog.opencagedata.com/post/digipin-support).
