@@ -1,5 +1,9 @@
-  * Full [API docs](https://opencagedata.com/api).
+  * Full [documentation of the OpenCage geocoding API](https://opencagedata.com/api).
+    
+  * Live operational status (as measured by an independent 3rd-party) is always aavailable at [status.opencagedata.com](https://status.opencagedata.com/).
+    
   * We recommend you also [follow us on Mastodon](https://en.osm.town/@opencage) and/or [read our blog](https://blog.opencagedata.com/) where all changes are announced. 
+
 
 # Changes to OpenCage Geocoding API. 
 
