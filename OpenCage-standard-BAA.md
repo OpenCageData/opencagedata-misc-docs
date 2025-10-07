@@ -16,7 +16,7 @@ Terms used but not otherwise defined in this Agreement shall have the same meani
 OpenCage may use or disclose Protected Health Information ("PHI") only as permitted by this Agreement or as required by law, and shall not use or disclose PHI in any manner that would constitute a violation of HIPAA if so used or disclosed by Covered Entity.
 
 **2.2 Safeguards.** 
-OpeNCage shall implement appropriate safeguards to prevent the use or disclosure of PHI other than as provided for by this Agreement, including implementing administrative, physical, and technical safeguards that reasonably and appropriately protect the confidentiality, integrity, and availability of electronic PHI. 
+OpenCage shall implement appropriate safeguards to prevent the use or disclosure of PHI other than as provided for by this Agreement, including implementing administrative, physical, and technical safeguards that reasonably and appropriately protect the confidentiality, integrity, and availability of electronic PHI. 
 
 OpenCage's API makes available various privacy options, most notably the use of an optional `no_record=1` parameter. Covered Entity is advised to make full use of these options, and bears sole responsibility for failure to do so.
 
@@ -44,7 +44,7 @@ OpenCage shall make its internal practices, books, and records relating to the u
 Covered Entity shall notify OpenCage of any limitation(s) in its Notice of Privacy Practices, to the extent that such limitation may affect OpenCage's use or disclosure of PHI.
 
 **3.2 Permission to Use or Disclose.**
-Covered Entity shall notify OpeNCage of any changes in, or revocation of, permission by an Individual to use or disclose PHI, to the extent that such changes may affect OpenCage's use or disclosure of PHI.
+Covered Entity shall notify OpenCage of any changes in, or revocation of, permission by an Individual to use or disclose PHI, to the extent that such changes may affect OpenCage's use or disclosure of PHI.
 
 **3.3 Restrictions.**
 Covered Entity shall notify OpenCage of any restriction to the use or disclosure of PHI that Covered Entity has agreed to in accordance with 45 CFR § 164.522.
