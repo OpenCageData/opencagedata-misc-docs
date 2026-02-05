@@ -19,7 +19,10 @@ request.setNoAnnotations(true); // exclude additional info such as calling code,
 request.setMinConfidence(3); // restrict to results with a confidence rating of at least 3 (out of 10)
 
 JOpenCageResponse response = jOpenCageGeocoder.reverse(request);
-String formattedAddress = response.getResults().get(0).getFormatted(); // get the formatted address of the first result
+if (response != null && response.getResults() != null && !response.getResults().isEmpty()) {
+  String formattedAddress = response.getResults().get(0).getFormatted();
+  System.out.println(formattedAddress);
+}
 ```
 
 ## Forward Example
@@ -34,7 +37,10 @@ request.setRestrictToCountryCode("za"); // restrict results to a specific countr
 request.setBounds(18.367, -34.109, 18.770, -33.704); // restrict results to a geographic bounding box (southWestLng, southWestLat, northEastLng, northEastLat)
 
 JOpenCageResponse response = jOpenCageGeocoder.forward(request);
-JOpenCageLatLng firstResultLatLng = response.getFirstPosition(); // get the coordinate pair of the first result
+if (response != null && response.getFirstPosition() != null) {
+  JOpenCageLatLng firstResultLatLng = response.getFirstPosition();
+  System.out.println(firstResultLatLng.getLat() + "," + firstResultLatLng.getLng());
+}
 ```
 
 
