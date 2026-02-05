@@ -4,7 +4,7 @@ Denis Carriere's python [geocoder](http://geocoder.readthedocs.io) library.
 
 _Reverse Example_
 
-    #!/usr/bin/env python
+    #!/usr/bin/env python3
 
     import geocoder
 
@@ -14,7 +14,7 @@ _Reverse Example_
 
 _Forward Example_
 
-    #!/usr/bin/env python
+    #!/usr/bin/env python3
 
     import geocoder
 

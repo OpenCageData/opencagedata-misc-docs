@@ -6,6 +6,8 @@ _Reverse Example_
 
 Same geocode method magically handles both forward and reverse geocoding...
 
+    #!/usr/bin/env ruby
+
     require 'geokit'
 
     Geokit::Geocoders::OpencageGeocoder.key = 'YOUR-OPENCAGE-API-KEY'
