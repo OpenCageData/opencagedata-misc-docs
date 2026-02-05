@@ -72,6 +72,9 @@ const stringifierOptions = {
 };
 
 // write queue ensures sequential file writes (concurrency: 1)
+// csv-stringify library quotes fields containing special characters, which provides
+// basic protection against CSV injection (so values starting with = aren't interpreted
+// as formulas by Excel or such)
 const writeQueue = async.queue((task, callback) => {
   stringify([task.data], stringifierOptions, (error, content) => {
     if (error) {
