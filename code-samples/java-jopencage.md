@@ -26,6 +26,9 @@ String formattedAddress = response.getResults().get(0).getFormatted(); // get th
 Send an address and receive a coordinate pair. Format your address according to the [OpenCage API guidelines](https://github.com/OpenCageData/opencagedata-misc-docs/blob/master/query-formatting.md).
 
 ```
+String apiKey = System.getenv("OPENCAGE_API_KEY");
+JOpenCageGeocoder jOpenCageGeocoder = new JOpenCageGeocoder(apiKey);
+
 JOpenCageForwardRequest request = new JOpenCageForwardRequest("375 Albert Rd, Woodstock, Cape Town, 7915, South Africa");
 request.setRestrictToCountryCode("za"); // restrict results to a specific country
 request.setBounds(18.367, -34.109, 18.770, -33.704); // restrict results to a geographic bounding box (southWestLng, southWestLat, northEastLng, northEastLat)
