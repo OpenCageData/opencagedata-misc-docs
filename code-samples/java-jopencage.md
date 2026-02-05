@@ -51,6 +51,9 @@ String apiKey = System.getenv("OPENCAGE_API_KEY");
 JOpenCageGeocoder jOpenCageGeocoder = new JOpenCageGeocoder(apiKey);
 
 InputStream inputFile = getClass().getClassLoader().getResourceAsStream("myAddresses.txt");
+if (inputFile == null) {
+  throw new FileNotFoundException("myAddresses.txt not found in resources");
+}
 
 List<String> listOfAddresses = new ArrayList<>();
 try (BufferedReader br = new BufferedReader(new InputStreamReader(inputFile, StandardCharsets.UTF_8))) {

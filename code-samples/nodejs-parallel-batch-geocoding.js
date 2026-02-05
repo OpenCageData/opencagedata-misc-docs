@@ -53,7 +53,7 @@ const NO_RS = {
   confidence: -1,
   formatted: '',
 };
-// ouput file columns
+// output file columns
 const stringifierOptions = {
   columns: [
     'id',
@@ -85,7 +85,7 @@ const writeQueue = async.queue((task, callback) => {
   });
 }, 1);
 
-const ouputResult = async (data) => {
+const outputResult = async (data) => {
   writeQueue.push({ data });
 };
 
@@ -130,10 +130,10 @@ const geocodeAddress = async ({ id, address }) => {
           formatted: geocoded.formatted,
         };
         // console.log(geocoded.formatted);
-        return ouputResult(result);
+        return outputResult(result);
       }
     }
-    return ouputResult({ ...NO_RS, id, input: address });
+    return outputResult({ ...NO_RS, id, input: address });
   } catch (error) {
     const statusCode = error.status?.code;
     switch (statusCode) {
@@ -155,7 +155,7 @@ const geocodeAddress = async ({ id, address }) => {
         break;
       default:
         console.error(`Geocoding error for "${address}":`, error.message || error);
-        return ouputResult({ ...NO_RS, id, input: address });
+        return outputResult({ ...NO_RS, id, input: address });
     }
   }
 };
@@ -177,13 +177,18 @@ const processFileStream = async (queue) => {
 };
 
 const run = async () => {
+  // check input file exists
+  if (!fs.existsSync(INFILE)) {
+    console.error(`Input file '${INFILE}' not found.`);
+    process.exit(1);
+  }
+
   // clear output file before starting
   fs.writeFileSync(OUTFILE, '');
 
   // create a queue object with concurrency
   const queue = async.queue(geocodeAddress, CONCURRENCY);
 
-  // await processFileSync(queue);
   await processFileStream(queue);
 };
 
