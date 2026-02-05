@@ -18,7 +18,7 @@ _Example Reverse_
 
     require __DIR__ . '/vendor/autoload.php';
 
-    use Http\Adapter\Guzzle6\Client as GuzzleAdapter;
+    use Http\Adapter\Guzzle7\Client as GuzzleAdapter;
     use Geocoder\Query\ReverseQuery;
 
     $adapter  = new GuzzleAdapter();
@@ -36,7 +36,7 @@ _Example Forward_
 
     require __DIR__ . '/vendor/autoload.php';
 
-    use Http\Adapter\Guzzle6\Client as GuzzleAdapter;
+    use Http\Adapter\Guzzle7\Client as GuzzleAdapter;
     use Geocoder\Query\GeocodeQuery;
 
     $adapter  = new GuzzleAdapter();
