@@ -88,8 +88,19 @@ const writeQueue = async.queue((task, callback) => {
   });
 }, 1);
 
-const outputResult = async (data) => {
-  writeQueue.push({ data });
+const outputResult = (data) => {
+  return new Promise((resolve, reject) => {
+    writeQueue.push({ data }, (err) => {
+      if (err) reject(err);
+      else resolve();
+    });
+  });
+};
+
+const gracefulExit = (code) => {
+  writeQueue.drain(() => {
+    process.exit(code);
+  });
 };
 
 const MAX_ADDRESS_LENGTH = 200;
@@ -142,19 +153,19 @@ const geocodeAddress = async ({ id, address }) => {
     switch (statusCode) {
       case 401:
         console.error('Invalid API key. Check your OPENCAGE_API_KEY.');
-        process.exit(401);
+        gracefulExit(401);
         break;
       case 402:
         console.error('Daily limit reached. Signup for a paid plan or upgrade your plan.');
-        process.exit(402);
+        gracefulExit(402);
         break;
       case 403:
         console.error('API key suspended or access forbidden.');
-        process.exit(403);
+        gracefulExit(403);
         break;
       case 429:
         console.error('Rate limit exceeded. Reduce CONCURRENCY or add delays.');
-        process.exit(429);
+        gracefulExit(429);
         break;
       default:
         console.error(`Geocoding error for "${address}":`, error.message || error);
@@ -165,6 +176,10 @@ const geocodeAddress = async ({ id, address }) => {
 
 const processFileStream = async (queue) => {
   fs.createReadStream(INFILE)
+    .on('error', (err) => {
+      console.error(`Error reading input file: ${err.message}`);
+      gracefulExit(1);
+    })
     .pipe(csv(['id', 'address']))
     .on('data', (data) => {
       // console.log(`Line from file: ${JSON.stringify(data)}`);
