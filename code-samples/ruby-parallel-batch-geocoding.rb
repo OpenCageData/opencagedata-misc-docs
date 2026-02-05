@@ -69,7 +69,7 @@ threads = num_threads.times.map do |thread_id|
   Thread.new do
     while (address = queue.shift(true) rescue nil)
       geocode_one_address(address, thread_id)
-      sleep(1) # rate limit: free accounts limited to 1 request/second
+      sleep(num_threads) # rate limit: ~1 request/second across all threads
     end
   end
 end
