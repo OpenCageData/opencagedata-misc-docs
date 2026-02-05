@@ -20,7 +20,7 @@
 			"data": {
 				"OPENCAGE_API_KEY": "YOUR-API-KEY"
 			},
-			"isPrivate": false,
+			"isPrivate": true,
 			"metaSortKey": 1540300121520,
 			"modified": 1540302709100,
 			"name": "OpenCage Geocoder Environment",
