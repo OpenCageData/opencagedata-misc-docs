@@ -8,7 +8,8 @@ _Following the library's [usage instructions](https://github.com/moberwasserlech
 Send a coordinate pair (latitude, longitude) and receive an address
 
 ```
-JOpenCageGeocoder jOpenCageGeocoder = new JOpenCageGeocoder(YOUR_API_KEY);
+String apiKey = System.getenv("OPENCAGE_API_KEY");
+JOpenCageGeocoder jOpenCageGeocoder = new JOpenCageGeocoder(apiKey);
 
 JOpenCageReverseRequest request = new JOpenCageReverseRequest(41.40015, 2.15765);
 request.setLanguage("es"); // prioritize results in a specific language using an IETF format language code
@@ -46,7 +47,8 @@ Stanford, 7210, South Africa
 ```
 Read the file and geocode the addresses:
 ```
-JOpenCageGeocoder jOpenCageGeocoder = new JOpenCageGeocoder(YOUR_API_KEY);
+String apiKey = System.getenv("OPENCAGE_API_KEY");
+JOpenCageGeocoder jOpenCageGeocoder = new JOpenCageGeocoder(apiKey);
 
 InputStream inputFile = getClass().getClassLoader().getResourceAsStream("myAddresses.txt");
 
