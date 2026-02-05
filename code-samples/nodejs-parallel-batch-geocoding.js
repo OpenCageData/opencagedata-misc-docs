@@ -1,5 +1,5 @@
 /**
- * This example deonstrates how to batch geocode addreses using Oopencage Data Geocoder.
+ * This example demonstrates how to batch geocode addresses using OpenCage Data Geocoder.
  *
  * Create a file file_to_geocode.csv
  * id,address
@@ -8,7 +8,7 @@
  * 3,"Berlin,Germany"
  * ...
  *
- * The batch file runs asynchonously with parallel workers, then it is important to have unique id so the results can be matched with.
+ * The batch file runs asynchronously with parallel workers, so it is important to have unique id so the results can be matched.
  *
  * create a .env file with your API KEY
  * OPENCAGE_API_KEY=<YOUR API KEY>
@@ -71,21 +71,37 @@ const stringifierOptions = {
   ],
 };
 
-const ouputResult = async (data) => {
-  stringify([data], stringifierOptions, (error, content) => {
+// write queue ensures sequential file writes (concurrency: 1)
+const writeQueue = async.queue((task, callback) => {
+  stringify([task.data], stringifierOptions, (error, content) => {
     if (error) {
       console.error('error stringifying the result');
+      return callback(error);
     }
-    fs.writeFile(OUTFILE, content, { flag: 'a+' }, (err) => {
+    fs.appendFile(OUTFILE, content, (err) => {
       if (err) console.error('error writing line', err);
+      callback(err);
     });
   });
+}, 1);
+
+const ouputResult = async (data) => {
+  writeQueue.push({ data });
+};
+
+const MAX_ADDRESS_LENGTH = 200;
+
+const isValidAddress = (address) => {
+  if (!address || typeof address !== 'string') return false;
+  const trimmed = address.trim();
+  if (trimmed.length === 0 || trimmed.length > MAX_ADDRESS_LENGTH) return false;
+  return true;
 };
 
 const geocodeAddress = async ({ id, address }) => {
   console.log(`geocoding "${address}"`);
   try {
-    if (address) {
+    if (isValidAddress(address)) {
       const apiResult = await geocode({
         q: address,
         limit: 1,
@@ -119,14 +135,28 @@ const geocodeAddress = async ({ id, address }) => {
     }
     return ouputResult({ ...NO_RS, id, input: address });
   } catch (error) {
-    if (error.status && error.status.code === 402) {
-      console.log(
-        'Daily limit reached. Signup for a paid plan or upgrade your plan'
-      );
-      process.exit(402);
+    const statusCode = error.status?.code;
+    switch (statusCode) {
+      case 401:
+        console.error('Invalid API key. Check your OPENCAGE_API_KEY.');
+        process.exit(401);
+        break;
+      case 402:
+        console.error('Daily limit reached. Signup for a paid plan or upgrade your plan.');
+        process.exit(402);
+        break;
+      case 403:
+        console.error('API key suspended or access forbidden.');
+        process.exit(403);
+        break;
+      case 429:
+        console.error('Rate limit exceeded. Reduce CONCURRENCY or add delays.');
+        process.exit(429);
+        break;
+      default:
+        console.error(`Geocoding error for "${address}":`, error.message || error);
+        return ouputResult({ ...NO_RS, id, input: address });
     }
-    console.error(error);
-    return ouputResult({ ...NO_RS, id, input: address });
   }
 };
 
@@ -147,6 +177,9 @@ const processFileStream = async (queue) => {
 };
 
 const run = async () => {
+  // clear output file before starting
+  fs.writeFileSync(OUTFILE, '');
+
   // create a queue object with concurrency
   const queue = async.queue(geocodeAddress, CONCURRENCY);
 
