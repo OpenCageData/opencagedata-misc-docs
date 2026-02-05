@@ -10,7 +10,7 @@ _Reverse Example_
 
     result = geocoder.opencage([45.404901, -75.7075509], key='YOUR-OPENCAGE-API-KEY', method='reverse')
 
-    print result.city
+    print(result.city)
 
 _Forward Example_
 
@@ -20,6 +20,6 @@ _Forward Example_
 
     result = geocoder.opencage("453 Booth Street, Ottawa ON, Canada", key='YOUR-OPENCAGE-API-KEY')
 
-    print result.latlng
+    print(result.latlng)
 
 
