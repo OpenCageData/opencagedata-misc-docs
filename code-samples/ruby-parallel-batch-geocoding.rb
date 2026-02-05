@@ -10,9 +10,13 @@
 # 9.54828,44.07715
 # 59.92903,30.32989 
 #
-# 2. set the api_key to the .rb file (this file)
+# 2. set the OPENCAGE_API_KEY environment variable
+#    export OPENCAGE_API_KEY='your-api-key'
 #
 # 3. run this script
+#
+# Note: Free accounts are limited to 1 request/second.
+#       Paid accounts can remove the sleep(1) and increase num_threads.
 #
 # 4. output:
 #
@@ -32,12 +36,15 @@ require 'thread'
 Thread.abort_on_exception = true
 
 
-api_key = 'YOUR-OPENCAGE-API-KEY'
+api_key = ENV['OPENCAGE_API_KEY'] || raise('OPENCAGE_API_KEY environment variable not set')
 addresses_filename = 'addresses.txt'
 num_threads = 3
 
 @geocoder = OpenCage::Geocoder.new(api_key: api_key)
 
+unless File.exist?(addresses_filename)
+  raise "Input file '#{addresses_filename}' not found. Please create it with one address per line."
+end
 addresses = File.readlines(addresses_filename)
 
 queue = Queue.new
@@ -60,9 +67,9 @@ end
 
 threads = num_threads.times.map do |thread_id|
   Thread.new do
-    while !queue.empty? do
-      address = queue.shift # take and remove first object from queue
+    while (address = queue.shift(true) rescue nil)
       geocode_one_address(address, thread_id)
+      sleep(1) # rate limit: free accounts limited to 1 request/second
     end
   end
 end
