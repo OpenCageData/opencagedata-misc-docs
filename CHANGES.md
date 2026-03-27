@@ -7,6 +7,10 @@
 
 # Changes to OpenCage Geocoding API. 
 
+* 20260327
+
+  We have [published Agent Skills](https://github.com/OpenCageData/opencage-skills) to make it simpler for AI agents to work with our API (and geosearch service). [Blog post](https://blog.opencagedata.com/post/agent-skills-for-working-with-the-opencage-geocoding-api-and-geosearch).
+
 * 20250903
 
   `NUTS` annotation data has now been updated to the 2024 dataset. [Blog post](https://blog.opencagedata.com/post/nuts-2024-data).
