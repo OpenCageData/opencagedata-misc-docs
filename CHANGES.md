@@ -7,6 +7,10 @@
 
 # Changes to OpenCage Geocoding API. 
 
+* 20260430
+  
+  We have slightly adpated the behaviour of the optional `add_request` parameter. We now return only the first 6 characters of the API `key` in the response, with the remainder replaced by asterisks (e.g. `ab1234**************************`). [Blog post](https://blog.opencagedata.com/post/key-obfuscation).
+
 * 20260327
 
   We have [published Agent Skills](https://github.com/OpenCageData/opencage-skills) to make it simpler for AI agents to work with our API (and geosearch service). [Blog post](https://blog.opencagedata.com/post/agent-skills-for-working-with-the-opencage-geocoding-api-and-geosearch).
