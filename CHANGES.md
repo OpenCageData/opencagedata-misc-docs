@@ -7,6 +7,10 @@
 
 # Changes to OpenCage Geocoding API. 
 
+* 20260511
+
+  We're starting to deprecate the `jsonp` parameter. We make sure existing implementations keep working. The CORS security model in modern browsers are superior and make JSONP approach to load data obsolete. [CORS vs JSONP](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing#CORS_vs_JSONP)
+
 * 20260430
   
   We have slightly adpated the behaviour of the optional `add_request` parameter. We now return only the first 6 characters of the API `key` in the response, with the remainder replaced by asterisks (e.g. `ab1234**************************`). [Blog post](https://blog.opencagedata.com/post/key-obfuscation).
