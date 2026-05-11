@@ -9,7 +9,7 @@
 
 * 20260511
 
-  We're starting to deprecate the `jsonp` parameter. We make sure existing implementations keep working. The CORS security model in modern browsers are superior and make JSONP approach to load data obsolete. [CORS vs JSONP](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing#CORS_vs_JSONP)
+  We no longer support the optional `jsonp` parameter, though it will continue working for existing customers. The CORS security model in now standard in all modern browsers and makes the JSONP approach to loading data obsolete. [CORS vs JSONP](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing#CORS_vs_JSONP). [Blog post](https://blog.opencagedata.com/post/jsonp-parameter-deprecated)
 
 * 20260430
   
