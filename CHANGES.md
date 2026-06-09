@@ -7,6 +7,10 @@
 
 # Changes to OpenCage Geocoding API. 
 
+* 20260609
+  
+  Our comamnd line (CLI) geocoding tool has been moved into its own python package `opencage-cli` and source repository. [Blog post](https://blog.opencagedata.com/post/opencage-cli-now-in-own-package)
+  
 * 20260511
 
   We no longer support the optional `jsonp` parameter, though it will continue working for existing customers. The CORS security model in now standard in all modern browsers and makes the JSONP approach to loading data obsolete. [CORS vs JSONP](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing#CORS_vs_JSONP). [Blog post](https://blog.opencagedata.com/post/jsonp-parameter-deprecated)
