@@ -9,7 +9,7 @@
 
 * 20260609
   
-  Our comamnd line (CLI) geocoding tool has been moved into its own python package `opencage-cli` and source repository. [Blog post](https://blog.opencagedata.com/post/opencage-cli-now-in-own-package)
+  Our command line (CLI) geocoding tool has been moved into its own python package `opencage-cli` and source repository. [Blog post](https://blog.opencagedata.com/post/opencage-cli-now-in-own-package)
   
 * 20260511
 
