@@ -7,6 +7,10 @@
 
 # Changes to OpenCage Geocoding API. 
 
+* 20260625
+
+  We now additionally return various `maxspeed` fields that only apply at different times, conditions, or for different classes of vehicle, `minspeed`, and `tunnel` in the `roadinfo` annotation if `roadinfo=1` was set in the API request. [Relevent section of the docs](https://opencagedata.com/api#roadinfoann), [Blog post](https://blog.opencagedata.com/post/more-roadinfo-maxspeed-data).
+  
 * 20260609
   
   Our command line (CLI) geocoding tool has been moved into its own python package `opencage-cli` and source repository. [Blog post](https://blog.opencagedata.com/post/opencage-cli-now-in-own-package)
