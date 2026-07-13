@@ -69,11 +69,44 @@ This document lays out the responsibilities of OpenCage GmbH (German company reg
 
 _As of 13 July 2026, detailed descriptions of each Sub-Processor available [on the OpenCage GDPR page](https://opencagedata.com/gdpr)._
 
-### 6. Security
+### 6. Technical & organisational measures (TOMs)
+
+In line with Art. 32 GDPR ("Security of processing"), we maintain the technical and organisational measures below to protect personal data.
+These mesaures are reviewed regularly and updated as the service evolves.
+
+1. Confidentiality
+
+- **Physical access control.** Our servers are hosted in data centres in the EU that are certified to DIN ISO/IEC 27001. Physical access to servers is controlled by the data centre operator via access control systems, video surveillance, and 24/7 monitoring.
+- **Logical access control.** Access to production systems requires individual, named accounts, strong authentication, and SSH keys rather than passwords. Two-factor authentication is enforced on the critical third-party services OpenCage relies upon.
+- **Authorisation control.** Access to personal data follows the principle of least privilege: employees are granted only the access needed for their role. Administrative access is limited to a small number of authorised staff.
+- **Data minimisation.** OpenCage collects only the data needed. Customers can use [the optional no\_record parameter](https://opencagedata.com/api#no_record-param) so that geocoding queries are never stored.
+- **Separation control.** Test, development, and production environments are kept separate. Different customers' data is logically separated within systems.
+
+2. Integrity
+
+- **Encryption.** All traffic to the OpenCage website is encrypted in transit via TLS/HTTPS. User database backups are encrypted before leaving our systems.
+- **Transfer control.** Backups are encrypted. 3rd-party services have no ability to decrypt them. OpenCage never sees or stores paymnet card numbers.
+- **Input / accountability control.** Access to and changes within production systems are logged, and can be traced if relevant.
+
+3. Availability & resilience
+
+- **Backups.** The OpenCage user database is regularly and automatically backed up to an encrypted, geographically separate location.
+- **Redundancy.** OpenCage infrastructure runs across multiple sites in the EU to provide resilience and continued availability.
+- **Monitoring.** OpenCage systems are continuously monitored, with a public [status page](https://status.opencagedata.com) for service availability.
+- **Deletion & retention.** Personal data is deleted according to a published [retention schedule](https://opencagedata.com/gdpr#data-deletion). Customer queries are never used to train AI or machine learning systems.
+
+4. Regular review, assessment & evaluation
+
+- **Vulnerability management.** OpenCage publishes its [security policies](https://opencagedata.com/security-policy).
+- **Subprocessor management.** OpenCage selects Sub-Processors that offer sufficient guarantees under the GDPR, and lists them transparently in the Sub-Processors table above.
+- **Data protection by design and by default.** Privacy considerations are built into how OpenCage designs and operates services, including offering opt-out query logging and keeping data within the EU.
+- **Ongoing review.** These measures are reviewed periodically and whenever infrastructure or processing activities change materially.
+
+### 7. Security
 
 1. OpenCage agrees to implement and maintain the administrative, technical, and physical safeguards of personal data stored using the Services. 
 
-### 7. Security Breach Management and Notification
+### 8. Security Breach Management and Notification
 
 1. If OpenCage becomes aware of unlawful access to the Data Controller's personal data stored through the Services, or unauthorized access to the Services resulting in loss, disclosure, or alteration of the Data Controller's personal data (“Security Breach”), OpenCage will promptly: (a) notify the Data Controller of the Security Breach; (b) investigate the Security Breach and provide the Data Controller with information known to OpenCage about the Security Breach; and (c) follow its policies and procedures to mitigate the effects and to minimize any damage resulting from the Security Breach.
 
@@ -83,13 +116,13 @@ _As of 13 July 2026, detailed descriptions of each Sub-Processor available [on t
 
 4. OpenCage’s report of and/or response to a Security Breach under this Section will not be construed as an admission by OpenCage to fault or liability with respect to the Security Breach.
 
-### 8. Deletion of Customer Data
+### 9. Deletion of Customer Data
 
 1. OpenCage agrees to delete Customer personal data in accordance with OpenCage’s procedures and Data Protection Laws.
 
 2. At a Customer's request, OpenCage will provide the Customer with a certification of deletion of personal data.
 
-### 9. Legal Effect
+### 10. Legal Effect
 
 1. This agreement comes into effect from the 25th of May 2018 for all existing customers, or from the time of purchase of an OpenCage service (subscription or one-time purchase) It expires with cessation of the Customer's OpenCage subscription or the utilization of all requests from a one-time purchase.
 
