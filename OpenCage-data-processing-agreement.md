@@ -47,9 +47,27 @@ This document lays out the responsibilities of OpenCage GmbH (German company reg
 
 ### 5. Sub-Processors
 
-1. The Data Controller agrees OpenCage may engage third-party Sub-processors to provide the Services and such Sub-processors may access personal data, and appoint additional levels of Sub-processors, only for purposes of providing the services OpenCage retained them to provide and not for any other purpose.
+1. The Data Controller agrees OpenCage may engage third-party Sub-Processors to provide the Services and such Sub-processors may access personal data, and appoint additional levels of Sub-Processors, only for purposes of providing the services OpenCage retained them to provide and not for any other purpose.
 
-2. OpenCage agrees to be liable for the acts and omissions of its Sub-processors to the same extent OpenCage would be liable if performing the services of each Sub-processor directly under the terms of this agreement.
+2. OpenCage agrees to be liable for the acts and omissions of its Sub-Processors to the same extent OpenCage would be liable if performing the services of each Sub-Processor directly under the terms of this agreement.
+
+3. List of Sub-Processors
+
+As of 13 July 2026, detailed descriptions of each available [on the OpenCage GDPR page](https://opencagedata.com/gdpr)
+
+ Service | Impacts | Purpose | Location | Privacy / GDPR policy |
+| --- | --- | --- | --- | --- |
+| Heroku (Salesforce) | Website visitors | Hosting (website) | EU | [Policy](https://www.salesforce.com/company/privacy/) |
+| Fathom Analytics | Website visitors | Site analytics | EU | [Policy](https://usefathom.com/data/) |
+| Thunderforest | Website visitors | Map tiles (on demo page) | EU | [Policy](https://www.thunderforest.com/privacy/) |
+| hCaptcha | Website visitors | Abuse / bot prevention | US | [Policy](https://www.hcaptcha.com/privacy) |
+| Postmark (ActiveCampaign) | Registered users | Transactional emails | US | [Policy](https://wildbit.com/privacy-policy) |
+| rsync.net | Registered users | Database backups, encrypted | CH | [Policy](https://www.rsync.net/resources/regulatory/gdpr.html) |
+| Instatus | Website visitors | Hosting (status page) | EU | [Policy](https://instatus.com/privacy) |
+| Hetzner | geocoding API & geosearch users | Hosting | EU | [Security (pdf)](https://www.hetzner.de/pdf/en/Sicherheit_en.pdf) |
+| Stripe | Customers | Payment processing | EU / US | [Policy](https://stripe.com/privacy) |
+| Quaderno | Customers | Invoicing | EU | [GDPR](https://quaderno.io/blog/how-quaderno-complies-with-gdpr/) |
+| Baremetrics | Customers | Business analytics | US | [GDPR](https://baremetrics.com/gdpr) |
 
 ### 6. Security
 
