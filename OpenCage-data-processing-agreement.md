@@ -53,8 +53,6 @@ This document lays out the responsibilities of OpenCage GmbH (German company reg
 
 3. List of Sub-Processors
 
-As of 13 July 2026, detailed descriptions of each available [on the OpenCage GDPR page](https://opencagedata.com/gdpr)
-
  Service | Impacts | Purpose | Location | Privacy / GDPR policy |
 | --- | --- | --- | --- | --- |
 | Heroku (Salesforce) | Website visitors | Hosting (website) | EU | [Policy](https://www.salesforce.com/company/privacy/) |
@@ -68,6 +66,8 @@ As of 13 July 2026, detailed descriptions of each available [on the OpenCage GDP
 | Stripe | Customers | Payment processing | EU / US | [Policy](https://stripe.com/privacy) |
 | Quaderno | Customers | Invoicing | EU | [GDPR](https://quaderno.io/blog/how-quaderno-complies-with-gdpr/) |
 | Baremetrics | Customers | Business analytics | US | [GDPR](https://baremetrics.com/gdpr) |
+
+_As of 13 July 2026, detailed descriptions of each Sub-Processor available [on the OpenCage GDPR page](https://opencagedata.com/gdpr)._
 
 ### 6. Security
 
