@@ -1,10 +1,10 @@
 # OpenCage Geocoding API address coverage
 
-Report generated: 21 Aug. 2026 07:44:14 UTC
+Report generated: 14 Oct. 2026 18:08:51 UTC
 
 ## Overview
 
-This report shows the approximate level of address coverage available in the [OpenCage Geocoding API](https://opencagedata.com/api) for each country.<br>Our ability to geocode your data depends on your data quality. Please see our [guidelines for query formatting](https://opencagedata.com/guides/how-to-format-your-geocoding-query). <br>Test the API on our [demo page](https://opencagedata.com/demo).
+This report shows the approximate level of address coverage available in the [OpenCage Geocoding API](https://opencagedata.com/api) for each country.<br>Our ability to geocode your data depends on your data quality. Please see our [guidelines for query formatting](https://opencagedata.com/guides/how-to-format-your-geocoding-query).<br>Test the API on our [demo page](https://opencagedata.com/demo).
 
 ## Coverage definitions
 
@@ -29,7 +29,7 @@ This report shows the approximate level of address coverage available in the [Op
 | AT 🇦🇹 | Austria | great |
 | AU 🇦🇺 | Australia | great |
 | AZ 🇦🇿 | Azerbaijan | coarse |
-| BA 🇧🇦 | Bosnia and Herzegovina | good |
+| BA 🇧🇦 | Bosnia and Herzegovina | great |
 | BB 🇧🇧 | Barbados | good |
 | BD 🇧🇩 | Bangladesh | coarse |
 | BE 🇧🇪 | Belgium | great |
