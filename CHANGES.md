@@ -9,7 +9,7 @@
 
 * 20261015
 
-  We now supportgeocoding of SMDG port terminal codes. [Blog post](https://blog.opencagedata.com/post/geocoding-smdg-port-terminal-codes).
+  We now support geocoding of SMDG port terminal codes. [Blog post](https://blog.opencagedata.com/post/geocoding-smdg-port-terminal-codes).
   
 * 20260625
 
