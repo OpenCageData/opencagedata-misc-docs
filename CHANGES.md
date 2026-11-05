@@ -4,7 +4,7 @@
     
   * We recommend you also [follow us on Mastodon](https://en.osm.town/@opencage) and/or [read our blog](https://blog.opencagedata.com/) where all changes are announced.
 
-  * NOTE: geodata is continually updated (see [the coverage/freshness section of the PI documentation](https://opencagedata.com/api#coverage)). Static datasets like time zones, NUTS codes, UN/LOCODEs, etc are updated promptly as an when they are published. 
+  * **NOTE**: geodata is continually updated (see [the coverage/freshness section of the API documentation](https://opencagedata.com/api#coverage)). Static datasets like time zones, NUTS codes, UN/LOCODEs, etc are updated promptly as and when they are published. 
 
 
 # Changes to OpenCage Geocoding API:
