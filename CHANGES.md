@@ -1,11 +1,13 @@
   * Full [documentation of the OpenCage geocoding API](https://opencagedata.com/api).
     
-  * Live operational status (as measured by an independent 3rd-party) is always aavailable at [status.opencagedata.com](https://status.opencagedata.com/).
+  * Live operational status (as measured by an independent 3rd-party) is always available at [status.opencagedata.com](https://status.opencagedata.com/).
     
-  * We recommend you also [follow us on Mastodon](https://en.osm.town/@opencage) and/or [read our blog](https://blog.opencagedata.com/) where all changes are announced. 
+  * We recommend you also [follow us on Mastodon](https://en.osm.town/@opencage) and/or [read our blog](https://blog.opencagedata.com/) where all changes are announced.
+
+  * NOTE: geodata is continually updated (see [the coverage/freshness section of the PI documentation](https://opencagedata.com/api#coverage)). Static datasets like time zones, NUTS codes, UN/LOCODEs, etc are updated promptly as an when they are published. 
 
 
-# Changes to OpenCage Geocoding API. 
+# Changes to OpenCage Geocoding API:
 
 * 20261015
 
